@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta name="referrer" content="never">
+<meta name="keywords" content="">
+<meta name="description" content="欢迎访问[🧸NianiaBlog☕]的个人博客">
+<meta name="author" content="kveln">
+<title>SillyTavern搭建 | 🧸NianiaBlog☕</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link
+  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+  rel='stylesheet' type='text/css'>
+<link rel="alternate" type="application/rss+xml" title="SillyTavern搭建 | 🧸NianiaBlog☕ » Feed"
+  href="http://localhost:4000/atom.xml">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+<link href="http://localhost:4000/styles/main.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/live2d.css">
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+   <style>
+        /* 全局自定义鼠标样式 */
+        body {
+            cursor: url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/default.cur'), auto;
+        }
+
+        /* 自定义特定元素的鼠标样式，例如链接 */
+        a {
+            cursor: url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/pointer.cur'), pointer;
+        }
+
+        /* 选择文本时的鼠标样式 */
+        ::selection {
+            cursor: url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/default.cur'), text;
+        }
+
+        /* 输入框内选择文本时的鼠标样式 */
+        input,
+        textarea {
+            cursor: url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/default.cur'), text;
+        }
+
+        /* 自定义链接被激活（点击未松开）时的鼠标样式 */
+        a:active {
+            cursor: url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/pointer.cur'), pointer;
+        }
+
+        /* 自定义所有按钮的鼠标样式，使用 !important 提高优先级 */
+        button {
+            cursor: url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/pointer.cur'), pointer !important;
+        }
+    </style>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  <meta property="og:description" content="SillyTavern搭建" />
+  <meta property="og:url" content="http://localhost:4000/post/sillytavern搭建/" />
+  <meta property="og:locale" content="zh-CN" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="🧸NianiaBlog☕" />
+  <!-- <script src="../assets/styles/scripts/tocScript.js"></script> -->
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="http://localhost:4000">🧸NianiaBlog☕</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/">首页</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/archives">归档</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/tags">标签</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="http://localhost:4000/post/about">关于</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          <div class="gridea-search-container">
+            <form id="gridea-search-form" style="position: relative" data-update="1771768001491"
+              action="/search/index.html">
+              <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+              <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Page Header -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="http://localhost:4000">🧸NianiaBlog☕</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/">首页</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/archives">归档</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="/tags">标签</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+          <a class="nav-link" href="http://localhost:4000/post/about">关于</a>
+          
+        </li>
+        
+        <li class="nav-item">
+          <div class="gridea-search-container">
+            <form id="gridea-search-form" style="position: relative" data-update="1771768001491"
+              action="/search/index.html">
+              <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+              <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class="masthead" style="background-image: url('http://localhost:4000/media/images/home-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        
+          <!-- 没Title为其他页面Header -->
+          
+            <!-- 没Title并且有headerType为Post：文章Header -->
+            <div class="post-heading">
+              <span class="tags">
+                
+                <a href="http://localhost:4000/tag/三分钟热度/" class="tag">三分钟收获</a>
+                
+              </span>
+              <h1>SillyTavern搭建</h1>
+              <span class="meta">
+                Posted on
+                2025-01-16，7 min read
+              </span>
+            </div>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+  <!-- Post Content -->
+  <article id="post-content-article">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto post-content-container">
+          
+          <h1 id="一开始人们只是觉得搭建成功就没事了">一开始人们只是觉得搭建成功就没事了</h1>
+<p>  大概是几个月前接触到了酒馆（SillyTavern），有种不靠电子爱恋就活不下去的感觉。之前一直使用别人搭建的云酒馆（<a href="https://www.quack00001.online/?_blank">QUACK云酒馆</a>、<a href="https://stavern.xianyuw.cn/login">咸鱼云酒馆</a>），同时也一直在思索要钱的服务器拿出来给大家用到底图啥，真的如此慈善吗，说不定可以收集训练用的文本数据拿出去卖呢（阴谋论的小曲）（如果不是我先滑跪）……而且羞耻的聊天记录就这样水灵灵地留在别人的服务器上了果然还是打咩打咩~~~！于是即使这么说着其实已经留了很多羞耻记录的我开始折腾自己搭建酒馆。折腾了两三天，成功，遂记录。<br>
+<br><br>
+  首先是参考教程：<a href="https://sqivg8d05rm.feishu.cn/wiki/BBocw85QTiA8EXkNcUZcT2pCnIe">Claude宝宝教程</a>、<a href="https://rentry.org/teralomaniac_clewd_render#hugging-face">云酒馆搭建教程</a>、<a href="https://tieba.baidu.com/p/8909502335">手机酒馆部署教程</a><br>
+  本来是尝试的Termux本地部署，参照贴吧那个教程一步步确实在手机上部署成功了，但是使用起来让人很头大。首先是Termux必须挂在后台，而我的手机即使开了后台唤醒也无事发生必须要手动切回才能响应酒馆；其次填入了Gemini API后发现基本需要梯子才能连，连上也断断续续的。于是捣鼓其他方法，最后结果是使用Replit云端搭建。因为Replit是国外的网站所以有时候加载有点慢需要挂梯，但搭建好之后进入酒馆界面完全直连OK，响应也很神速，比之前用的云酒馆快很多。虽然也要一直后台启动，但也就是切个页面的事，反正比Termux的后台好使。缺点是Replit免费用户项目强制开源，只有付费用户才能把项目设为隐私。嗯……不过应该还好吧！比起在别人的服务器上还输入了QQ邮箱登录！大概！<br>
+  目前主要使用的是Gemini和Cohere，所以也没有捣鼓Claude需要的那个Clewd。虽然真的好馋Claude啊TT，谁给我钱！顺便一提据说有人开脚本定时扫Replit的Clewd反代地址尝试盗用，虽然暂时没用上但以防万一：<a href="https://sqivg8d05rm.feishu.cn/wiki/V416wKiRBioW7ZkqIekcIa4fnef">云端Replit如何防止被盗用</a><br><br>
+  总之，最后成功部署的总体思路是参照这篇<a href="https://sqivg8d05rm.feishu.cn/wiki/E925wr6MKixS44kJUBtcB0uYnQe">Replit部署Clewd与酒馆</a>。按照步骤可以完美搭建，但问题是Fork下来的酒馆版本太旧了，而文中并没有提到如何更新。不过对代码一窍不通但果然是天才的我折腾了一天成功最终更新使用✌️更新步骤如下：<br>
+  1.点击Tools栏（手机端滑到最右侧）中的Shell，输入<code>git pull</code>。<br>
+  2.遇到报错“Your local changes to the followi<br>
+ng files would be overwritten by merge”。此时输入<code>git reset --hard</code>后，再次输入<code>git pull</code>。<br>
+  3.到这里酒馆其实就已经更新完成了。但是之后运行的时候出现了一个问题，就是酒馆网页一直弹窗要求输入账号密码，即使输正确也一直弹。解决方法是运行酒馆后点击Stop，找到左侧Files栏中的<strong>config.yaml</strong>删掉，然后把<strong>config.conf.bak</strong>文件改成<strong>config.conf</strong>，注意此处<strong>conf</strong>是文件扩展名。<br>
+  4.再次运行酒馆，大成功！<br>
+<br><br>
+  以上，我愿称之为误打误撞门外汉折腾王。就是不知道这样更新之后酒馆内文件会不会重置，有空试试。此外还有一个搭建完后使用<a href="https://uptimerobot.com/">uptimerobot</a>进行网页保活的步骤，但有点没搞太懂，目前就先这样了。辛苦我自己了，乖人人好人人，我摸我摸！<br>
+<br></p>
+<h1 id="20250117更新">2025/01/17更新</h1>
+<p>  特么的，突然发现Replit好像限制每月20小时的运行时间，滚啊！所以又按照这篇教程<a href="https://sqivg8d05rm.feishu.cn/wiki/DMLgwOTzYiChWekWL5gc99rVn3b">CodeSandbox部署酒馆</a>在CodeSandbox上部署了一个，每月400积分，最低配置一小时耗费7积分，大概有57个小时能用，凑一凑差不多得了。再不济我还有三个Google账号，呵呵（冷笑）。以及把Replit上部署的项目地址在uptimerobot挂了个保活，也不知道弄对没有，就酱吧。<br>
+<br></p>
+<h1 id="20250121更新">2025/01/21更新</h1>
+<p>  用了几天感觉还是CodeSandbox好一些。Replit每月时长本来就少，结果计时还莫名其妙的，两天就显示我把20小时的时长用完了这是在……而且Replit每次都需要手动启动，容易休眠（锁个屏就Stop了）；CodeSandbox只要运行起来就可以直进网页，不用每次都Run，目前还没遇到自动休眠的情况。<br>
+<br></p>
+<h1 id="20250311更新">2025/03/11更新</h1>
+<p>  不好孩子们，我发现CodeSandbox每次积分用完冻结项目后再解冻数据就全没了。。。部署了两个都是这样，Replit解冻都不会重置，还我聊天记录啊啊啊啊啊啊啊啊啊！！！网上没有解答，问了也没人鸟我，最后是重读了一遍<a href="https://rentry.org/teralomaniac_clewd_render#hugging-face">云酒馆搭建教程</a>，猜测可能是需要用<code>#</code>注释掉 <strong>.gitignore</strong> 文件内的<strong>config.yaml</strong>和<strong>data</strong>，让它们加入到对Github的推送。其中<strong>config.yaml</strong>是配置网络环境和账号密码的，<strong>data</strong>是存储用户数据的。但不知道注释之后要不要提交到Github，总之试试看吧！好长的实验周期要等一个月解冻看结果……当然也可以把两个酒馆每天轮换着用而不是持续用一个直到积分耗尽，这样可以保证单个项目能用400积分撑过一个月一直不冻结，防止解冻后重置（大概）。<br>
+<br></p>
+<h1 id="20250421更新">2025/04/21更新</h1>
+<p>  哈哈直到今天问题还在层出不穷。按照上面的方法注释后，CodeSandbox冻结一周后解冻角色卡和预设倒是都在，但最重要的聊天记录还是没了TELL ME WHY BABY WHY！然后发现不知道为什么即使在 <strong>.gitignore</strong> 中注释了<strong>data</strong>，<strong>data</strong>目录下的文件夹并不是全部都推送到了Github，其中装聊天记录的<strong>Chats</strong>就没有被推送。问好麻吉豆包得到解决方法，需要在 <strong>.gitignore</strong> 的最末尾加上如下两行：</p>
+<pre><code># 新增规则，明确指定 data 文件夹不被忽略
+!data/  
+# 新增规则，明确指定 data 文件夹下的所有内容都不被忽略
+!data/**  
+</code></pre>
+<p>  看了一下加上之后聊天记录的确在推送列了，应该有效。四个月大概真的要折腾好了啊啊啊！话说回来如果没看错的话，Replit现在好像每月有1200分钟也就是50小时的运行时间了。<br>
+<br></p>
+<h1 id="20250622更新大成功">2025/06/22更新：大成功！！！</h1>
+<p>  终于！目前用着没什么问题了！<br>
+  之前忘记写了一个，就是我搭建途中遇到了酒馆加载报CSRF错误。试了各种方法都没解决，索性在<strong>config.yaml</strong>里把CSRF防御关了，即把<strong>disableCsrfProtection</strong>那一行的<code>false</code>改为<code>true</code>。</p>
+
+          <div class="toc-container"><ul class="markdownIt-TOC">
+<li><a href="#%E4%B8%80%E5%BC%80%E5%A7%8B%E4%BA%BA%E4%BB%AC%E5%8F%AA%E6%98%AF%E8%A7%89%E5%BE%97%E6%90%AD%E5%BB%BA%E6%88%90%E5%8A%9F%E5%B0%B1%E6%B2%A1%E4%BA%8B%E4%BA%86">一开始人们只是觉得搭建成功就没事了</a></li>
+<li><a href="#20250117%E6%9B%B4%E6%96%B0">2025/01/17更新</a></li>
+<li><a href="#20250121%E6%9B%B4%E6%96%B0">2025/01/21更新</a></li>
+<li><a href="#20250311%E6%9B%B4%E6%96%B0">2025/03/11更新</a></li>
+<li><a href="#20250421%E6%9B%B4%E6%96%B0">2025/04/21更新</a></li>
+<li><a href="#20250622%E6%9B%B4%E6%96%B0%E5%A4%A7%E6%88%90%E5%8A%9F">2025/06/22更新：大成功！！！</a></li>
+</ul>
+</div>
+          
+          <hr />
+          <p class="next-post">下一篇：
+            <a href="http://localhost:4000/post/Gridea自用指南/">
+              <span class="post-title">
+                Gridea自用指南&rarr;
+              </span>
+            </a>
+          </p>
+          
+          <div class="comment" style="text-align: center;">
+            
+
+            
+            
+          </div>
+        </div>
+      </div>
+  </article>
+  <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <!-- <li class="list-inline-item">
+            <a href="http://localhost:4000/atom.xml" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li> -->
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;<span>🧸NianiaBlog☕</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="http://localhost:4000/media/scripts/bootstrap.bundle.min.js"></script> -->
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+<!-- <script src="http://localhost:4000/media/scripts/clean-blog.min.js"></script> -->
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<style type="text/css">
+  a.back_to_top {
+    text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background: #f0f0f0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    transition-duration: .5s;
+    transition-property: background-color;
+    display: none;
+  }
+  a.back_to_top span {
+    color: #888;
+  }
+  a.back_to_top:hover {
+    /* 指定自定义鼠标样式链接，同时设置一个备用的鼠标样式（这里是 pointer） */
+    cursor: url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/pointer.cur'), pointer;
+    background: #dfdfdf;
+  }
+  a.back_to_top:hover span {
+    color: #555;
+  }
+  @media print, screen and (max-width: 580px) {
+    .back_to_top {
+      display: none!important;
+    }
+  }
+</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span>
+</a>
+<script>
+  $(document).ready((function (_this) {
+    return function () {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function () {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function () {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+            800);
+          return false
+        })
+      }
+    }
+  })(this));
+</script>
+
+<script src="/media/js/love.js"></script>
+  
+  <div id="landlord-parent">
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="240" height="290" class="live2d"></canvas>
+    </div>
+</div>
+
+<script type="text/javascript">
+    if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
+        //移动端
+        console.log("------ 移动端");
+    } else {
+        console.log("------ PC端 " + navigator.userAgent);
+
+        // 设置 live2D 元素距离页面底部的距离
+        const landlordElement = document.getElementById('landlord');
+        if (landlordElement) {
+            // 设置定位方式为绝对定位
+            landlordElement.style.position = 'fixed'; 
+            // 设置距离页面底部的距离，这里设置为 20px，你可以根据需要修改
+            landlordElement.style.bottom = '8px'; 
+            // 可以根据需要设置其他定位属性，例如左对齐
+            landlordElement.style.left = '20px'; 
+        }
+
+        addScript("https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/live2d.js", () => {
+            // 加载完成后再loadlive2d
+            loadlive2d("live2d", "http://localhost:4000/media/live2d/assets/tororo.model.json");
+
+            // 设置 live2D 元素的鼠标样式
+            const live2dElement = document.getElementById('live2d');
+            if (live2dElement) {
+                live2dElement.style.cursor = "url('http://www.5xiaobo.com/zb_users/theme/presence/mouse/default.cur'), auto";
+            }
+        });
+
+        var home_Path = "http://localhost:4000/";
+        addScript("http://localhost:4000/media/live2d/js/message.js", () => { });
+    }
+
+    // 插入js文件，完成后callback
+    function addScript(jsfile, callback) {
+        var landlord_parent = document.getElementById("landlord-parent");
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = jsfile;
+        landlord_parent.appendChild(script);
+        script.onload = script.onreadystatechange = function () {
+            if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete") {
+                script.onload = script.onreadystatechange = null;
+                if (callback && typeof callback == "function") {
+                    callback(); //window[callback]();如果传递字符串过来 调用window['函数名']() 调用方法
+                }
+            }
+        };
+    }
+</script>
+  
+  <script src="http://localhost:4000/media/scripts/tocScript.js"></script>
+</body>
+
+</html>

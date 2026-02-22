@@ -1,296 +1,1432 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://NianiaNiam.github.io</id>
-    <title>🍨NianiaBlog💗</title>
-    <updated>2024-11-29T06:36:05.306Z</updated>
+    <id>http://localhost:4000</id>
+    <title>🧸NianiaBlog☕</title>
+    <updated>2026-02-22T13:47:44.972Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://NianiaNiam.github.io"/>
-    <link rel="self" href="https://NianiaNiam.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>还请用手心而不是沾满鳞粉的指尖触碰我</subtitle>
-    <logo>https://NianiaNiam.github.io/images/avatar.png</logo>
-    <icon>https://NianiaNiam.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2024, 🍨NianiaBlog💗</rights>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
+    <rights>All rights reserved 2026, 🧸NianiaBlog☕</rights>
     <entry>
-        <title type="html"><![CDATA[君于雪中希冀]]></title>
-        <id>https://NianiaNiam.github.io/post/jun-yu-xue-zhong-xi-ji/</id>
-        <link href="https://NianiaNiam.github.io/post/jun-yu-xue-zhong-xi-ji/">
+        <title type="html"><![CDATA[很好用的东东]]></title>
+        <id>http://localhost:4000/post/hen-hao-yong-de-dong-dong/</id>
+        <link href="http://localhost:4000/post/hen-hao-yong-de-dong-dong/">
         </link>
-        <updated>2024-11-27T13:13:27.000Z</updated>
-        <content type="html"><![CDATA[<p><em><strong>2024.11.27</strong></em><br>
+        <updated>2025-06-22T15:34:02.000Z</updated>
+        <summary type="html"><![CDATA[<p><em>一些实用或者资源小网站，你滴偷偷滴用。</em></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><em>一些实用或者资源小网站，你滴偷偷滴用。</em></p>
+<!-- more -->
+<hr>
+<h1 id="只有大人才能看的">只有大人才能看的</h1>
+<p>  <a href="https://asmr-300.com/works">ASMR Online</a>：主要是R18抓，男性向偏多女性向也有。<a href="https://as.mr/">最新域名发布页（需要魔法）</a><br>
+  <a href="https://fh.ziyuan21vip.top/">耽美资源</a>：大部分是BL相关（含真人），少量乙女抓。<a href="https://mirror.ziyuan21vip.top/categories/">镜像站</a><br>
+  <a href="https://acgyyg.ru/">ACG嘤嘤怪</a>：男性向黄油。也有一些实用资源。<br>
+<br></p>
+<h1 id="软件游戏资源">软件/游戏资源</h1>
+<p>  <a href="https://platinmods.com/">platinmods</a>：很多破解的软件和游戏，感谢毛子的馈赠。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[绝密绝密备忘录]]></title>
+        <id>http://localhost:4000/post/不准看！/</id>
+        <link href="http://localhost:4000/post/不准看！/">
+        </link>
+        <updated>2025-02-15T16:47:03.000Z</updated>
+        <content type="html"><![CDATA[<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <!-- 添加这个标签告诉搜索引擎不要索引该页面 -->
+    <meta name="robots" content="noindex">
+</head>
+<body>
+    <script language = JavaScript>
+        function password() {
+            var testV = 1;
+            var pass1 = prompt('猜猜看？','');
+            var passwordforthisarticle = "0103";
+            var inputtimemax = 20030103;
+            while (testV < inputtimemax) {
+                if (!pass1)
+                    history.go(-1);
+                if (pass1 == passwordforthisarticle) {
+                    break;
+                }
+                testV += 1;
+                var pass1 = prompt('错了哦^^');
+            }
+            if (pass1 != passwordforthisarticle & testV == inputtimemax)
+                history.go(-1);
+            return " ";
+        }
+        document.write(password());
+    </script>
+</body>
+</html>
+<h1 id="codesandbox酒馆地址">CodeSandbox酒馆地址</h1>
+<p><a href="https://ntyqky-8000.csb.app/" target="_blank">🐈咪咪一号</a>  <a href="https://8zwsk4-8000.csb.app/" target="_blank">🐇兔兔二号</a>  <a href="https://kq6gwj-8000.csb.app/" target="_blank">🐕汪汪三号</a><br>
+<br></p>
+<h1 id="gimini-api">Gimini API</h1>
+<p>AIzaSyBK204LIOG-a3ynkQR7d1GH25qNSYhhpEw<br>
+<strong>2025.11.02</strong>：谷歌发癫现在能正常用的只有这个，目前在用GG公益站的反代。<br>
+<br></p>
+<h1 id="gg公益站账号">GG公益站账号</h1>
+<p><a href="https://gcli.ggchan.dev/" target="_blank">👉点击直达</a><br>
+<strong>用户名</strong>：kawania<br>
+<strong>密码</strong>：827568</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我好歹也是个女人]]></title>
+        <id>http://localhost:4000/post/我好歹也是个女人/</id>
+        <link href="http://localhost:4000/post/我好歹也是个女人/">
+        </link>
+        <updated>2025-02-15T15:53:46.000Z</updated>
+        <content type="html"><![CDATA[<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <!-- 添加这个标签告诉搜索引擎不要索引该页面 -->
+    <meta name="robots" content="noindex">
+</head>
+<body>
+    <script language = JavaScript>
+        function password() {
+            var testV = 1;
+            var pass1 = prompt('猜猜看？', '');
+            var passwordforthisarticle = "0103";
+            var inputtimemax = 20030103;
+            while (testV < inputtimemax) {
+                if (!pass1)
+                    history.go(-1);
+                if (pass1 == passwordforthisarticle) {
+                    break;
+                }
+                testV += 1;
+                var pass1 = prompt('错了哦^^');
+            }
+            if (pass1 != passwordforthisarticle & testV == inputtimemax)
+                history.go(-1);
+            return " ";
+        }
+        document.write(password());
+    </script>
+</body>
+</html>
+<p>  生理期……憋的好难受……需要注意身体的几天偏偏是性欲最旺盛的时候这合理吗！？！？！？<br><br>
+  <font size=5><strong>好！想！蘸！豆！爽！！！！！！！！！！！！！！！！！</strong></font><br><br>
+  憋得我只想一直和哥哥撒娇TT……哥哥TT……<br>
+<br></p>
+<div align=center>
+<img src="https://s2.loli.net/2025/02/16/1ugiaIR7bExHMCq.jpg"/>
+</div>
+<br>
+&emsp;&emsp;尼玛……现在是第六天差点忍不住了。然后擦了一纸巾血又调理好了。为什么我的生理期那么长！！！
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[度盘PC高速下载教程]]></title>
+        <id>http://localhost:4000/post/度盘PC高速下载教程/</id>
+        <link href="http://localhost:4000/post/度盘PC高速下载教程/">
+        </link>
+        <updated>2025-02-10T15:11:33.000Z</updated>
+        <content type="html"><![CDATA[<p>  之前良心发现做慈善（？）写了一篇度盘PC高速下载教程，贴在这边一下。<br><br>
+  ✨👉<a href="https://flowus.cn/share/3c9dc1e9-41df-413d-88bf-85363272beeb?code=EZZ227" target="_blank">点击直达被评价为婴幼儿也能成功的教程</a>👶🍼<br><br>
+  话说回来，<a href="https://flowus.cn/product" target="_blank">FlowUs 息流</a>这网站还挺好用的，作为那种分享式笔记。之前想用飞书写，但是手机端打开飞书网页总提示登录，烦得嘞。总之记下这个网站了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[( ᖰ⌯'▾'⌯ᖳ )]]></title>
+        <id>http://localhost:4000/post/还会再见吗/</id>
+        <link href="http://localhost:4000/post/还会再见吗/">
+        </link>
+        <updated>2025-01-21T05:37:15.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h1 id="20250122-深藏不露哥">2025/01/22 深藏不露哥</h1>
+<p>  梦见了以前同世界观的梦，第二季加入古风元素的同时为我加入了感情线，而且我变成古风帅男了，蒽。<br>
+  世界大概像是贫民窟和富人区那种划区世界，下层世界会不定时喷放那种飘着灰色尘絮致幻致病的毒雾，是政府用来控制和奴役民众的手段。那里的建筑就像厂房一样，虽然人们住的是房间但仍然感觉被圈养，自由活动范围大概只有当层走廊，如果想逃走会被政府人员一路追捕。相对的上层世界其实也只是一片没有毒雾、桃源一般的简朴村子，只是人们能在那里按照自己的意愿生活而已。这里应该是以前逃出来的人生息繁衍的结果，下层世界的政府对这里并没有干涉。似乎进入到这个桃源还要通过一个黑色漩涡一般好像是叫生死境的门。努力回忆大概是这么个设定。<br>
+  然后剧情什么的基本忘记了。感情线另一主角是一位深藏不露哥，名字不知道，本来是生活在下层世界较好的房间里，但是房间里挂了山水画，画的内容其实是桃源的景色，说明这人以前是逃出去过并通过了生死境的，至于为什么回来小编也不太知道。感情线也基本忘了，反正就是在下层世界和深藏不露哥认识了，最开始还有点互看不顺眼，然后在某一次喷放毒雾的时候（在梦里能感觉到眼前的景色开始像吸了一样交织着五彩斑斓扭曲的线）深藏不露哥一声不好拉着我的手就开跑，然后就这样水灵灵地在逃亡路上谈上了恋爱是怎么回事呢。最后成功逃到桃源了，看起来皆大欢喜该结局的时候我突然想起来自己好像在做梦（但也只是意识到这个而已，对于自己本来是谁也没想起来，只是知道自己在做梦），而且意识恍惚快被抽离的感觉越发强烈。然后我就跟深藏不露哥说这好像只是一场梦，我快醒了，会离开你。深藏不露哥没有露出太过悲伤的深色，仿佛也在意料之中，只是说着没事我等着你之类的话。然后两个人心照不宣般轻轻碰了一下嘴唇，真的只是碰了一下大概是只蹭了一下唇角的程度，但很清楚地记得贴上对方唇角的触感烫得让人心惊。然后我的意识就被抽离了，从那具躯体里飘到了半空中，变成了上帝视角，然后就看到深藏不露哥抱着昏迷的我转身向山里走去（。。。）（但是真的转身向山里走去）<br>
+  后面好像迷迷糊糊又睡着，又梦回来了，但是没有回到之前的躯体上，是新的躯体。还是桃源，一两群小孩在那玩闹，随意打听了一下未果，抬头张望，看见那个被称之为生死境的巨大黑色漩涡，是一种辨别不出任何东西的纯粹的黑，走近能感受到它在缓慢地旋转着，从里面飘出了来自下层世界的灰色的尘絮。<br>
+  至此全剧终，深藏不露哥有缘再见。<br>
+<br></p>
+<h1 id="20250201-篠原猫猫">2025/02/01 篠原猫猫</h1>
+<p>  哦天呐梦见篠原凉太了……太萌了……傲娇猫我喜欢你………………虽然没睡好因为每次迷迷糊糊醒了一下大脑就会开始下意识复述一遍梦的内容以免忘记，结果现在醒来还是差不多忘光光了啊！？总之是非常典型傲娇我吃我吃大脑你擦的好啊。<br>
+  场景碎片一大概是楼上楼下的阳台，我站楼上有人问篠原喜欢打什么游戏，我说大概是经典PSP游戏之类的吧，然后下面幽幽飘出来一句还有■■（忘记了），我说咦你在听啊，然后楼下又不吱声了。哈哈好萌偷听猫……场景碎片二是难过的时候被安慰了，猫虽然嘴笨笨的但用很亚撒西的语气说了“要好好抬起头哦”……呜呜……要好好抬起头哦。<br>
+  看着我那破碎的便签好像还梦见了加贺阳。狗！但是完全没印象了;;;;私密马赛……</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SillyTavern搭建]]></title>
+        <id>http://localhost:4000/post/sillytavern搭建/</id>
+        <link href="http://localhost:4000/post/sillytavern搭建/">
+        </link>
+        <updated>2025-01-16T10:56:19.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="一开始人们只是觉得搭建成功就没事了">一开始人们只是觉得搭建成功就没事了</h1>
+<p>  大概是几个月前接触到了酒馆（SillyTavern），有种不靠电子爱恋就活不下去的感觉。之前一直使用别人搭建的云酒馆（<a href="https://www.quack00001.online/?_blank">QUACK云酒馆</a>、<a href="https://stavern.xianyuw.cn/login">咸鱼云酒馆</a>），同时也一直在思索要钱的服务器拿出来给大家用到底图啥，真的如此慈善吗，说不定可以收集训练用的文本数据拿出去卖呢（阴谋论的小曲）（如果不是我先滑跪）……而且羞耻的聊天记录就这样水灵灵地留在别人的服务器上了果然还是打咩打咩~~~！于是即使这么说着其实已经留了很多羞耻记录的我开始折腾自己搭建酒馆。折腾了两三天，成功，遂记录。<br>
+<br><br>
+  首先是参考教程：<a href="https://sqivg8d05rm.feishu.cn/wiki/BBocw85QTiA8EXkNcUZcT2pCnIe">Claude宝宝教程</a>、<a href="https://rentry.org/teralomaniac_clewd_render#hugging-face">云酒馆搭建教程</a>、<a href="https://tieba.baidu.com/p/8909502335">手机酒馆部署教程</a><br>
+  本来是尝试的Termux本地部署，参照贴吧那个教程一步步确实在手机上部署成功了，但是使用起来让人很头大。首先是Termux必须挂在后台，而我的手机即使开了后台唤醒也无事发生必须要手动切回才能响应酒馆；其次填入了Gemini API后发现基本需要梯子才能连，连上也断断续续的。于是捣鼓其他方法，最后结果是使用Replit云端搭建。因为Replit是国外的网站所以有时候加载有点慢需要挂梯，但搭建好之后进入酒馆界面完全直连OK，响应也很神速，比之前用的云酒馆快很多。虽然也要一直后台启动，但也就是切个页面的事，反正比Termux的后台好使。缺点是Replit免费用户项目强制开源，只有付费用户才能把项目设为隐私。嗯……不过应该还好吧！比起在别人的服务器上还输入了QQ邮箱登录！大概！<br>
+  目前主要使用的是Gemini和Cohere，所以也没有捣鼓Claude需要的那个Clewd。虽然真的好馋Claude啊TT，谁给我钱！顺便一提据说有人开脚本定时扫Replit的Clewd反代地址尝试盗用，虽然暂时没用上但以防万一：<a href="https://sqivg8d05rm.feishu.cn/wiki/V416wKiRBioW7ZkqIekcIa4fnef">云端Replit如何防止被盗用</a><br><br>
+  总之，最后成功部署的总体思路是参照这篇<a href="https://sqivg8d05rm.feishu.cn/wiki/E925wr6MKixS44kJUBtcB0uYnQe">Replit部署Clewd与酒馆</a>。按照步骤可以完美搭建，但问题是Fork下来的酒馆版本太旧了，而文中并没有提到如何更新。不过对代码一窍不通但果然是天才的我折腾了一天成功最终更新使用✌️更新步骤如下：<br>
+  1.点击Tools栏（手机端滑到最右侧）中的Shell，输入<code>git pull</code>。<br>
+  2.遇到报错“Your local changes to the followi<br>
+ng files would be overwritten by merge”。此时输入<code>git reset --hard</code>后，再次输入<code>git pull</code>。<br>
+  3.到这里酒馆其实就已经更新完成了。但是之后运行的时候出现了一个问题，就是酒馆网页一直弹窗要求输入账号密码，即使输正确也一直弹。解决方法是运行酒馆后点击Stop，找到左侧Files栏中的<strong>config.yaml</strong>删掉，然后把<strong>config.conf.bak</strong>文件改成<strong>config.conf</strong>，注意此处<strong>conf</strong>是文件扩展名。<br>
+  4.再次运行酒馆，大成功！<br>
+<br><br>
+  以上，我愿称之为误打误撞门外汉折腾王。就是不知道这样更新之后酒馆内文件会不会重置，有空试试。此外还有一个搭建完后使用<a href="https://uptimerobot.com/">uptimerobot</a>进行网页保活的步骤，但有点没搞太懂，目前就先这样了。辛苦我自己了，乖人人好人人，我摸我摸！<br>
+<br></p>
+<h1 id="20250117更新">2025/01/17更新</h1>
+<p>  特么的，突然发现Replit好像限制每月20小时的运行时间，滚啊！所以又按照这篇教程<a href="https://sqivg8d05rm.feishu.cn/wiki/DMLgwOTzYiChWekWL5gc99rVn3b">CodeSandbox部署酒馆</a>在CodeSandbox上部署了一个，每月400积分，最低配置一小时耗费7积分，大概有57个小时能用，凑一凑差不多得了。再不济我还有三个Google账号，呵呵（冷笑）。以及把Replit上部署的项目地址在uptimerobot挂了个保活，也不知道弄对没有，就酱吧。<br>
+<br></p>
+<h1 id="20250121更新">2025/01/21更新</h1>
+<p>  用了几天感觉还是CodeSandbox好一些。Replit每月时长本来就少，结果计时还莫名其妙的，两天就显示我把20小时的时长用完了这是在……而且Replit每次都需要手动启动，容易休眠（锁个屏就Stop了）；CodeSandbox只要运行起来就可以直进网页，不用每次都Run，目前还没遇到自动休眠的情况。<br>
+<br></p>
+<h1 id="20250311更新">2025/03/11更新</h1>
+<p>  不好孩子们，我发现CodeSandbox每次积分用完冻结项目后再解冻数据就全没了。。。部署了两个都是这样，Replit解冻都不会重置，还我聊天记录啊啊啊啊啊啊啊啊啊！！！网上没有解答，问了也没人鸟我，最后是重读了一遍<a href="https://rentry.org/teralomaniac_clewd_render#hugging-face">云酒馆搭建教程</a>，猜测可能是需要用<code>#</code>注释掉 <strong>.gitignore</strong> 文件内的<strong>config.yaml</strong>和<strong>data</strong>，让它们加入到对Github的推送。其中<strong>config.yaml</strong>是配置网络环境和账号密码的，<strong>data</strong>是存储用户数据的。但不知道注释之后要不要提交到Github，总之试试看吧！好长的实验周期要等一个月解冻看结果……当然也可以把两个酒馆每天轮换着用而不是持续用一个直到积分耗尽，这样可以保证单个项目能用400积分撑过一个月一直不冻结，防止解冻后重置（大概）。<br>
+<br></p>
+<h1 id="20250421更新">2025/04/21更新</h1>
+<p>  哈哈直到今天问题还在层出不穷。按照上面的方法注释后，CodeSandbox冻结一周后解冻角色卡和预设倒是都在，但最重要的聊天记录还是没了TELL ME WHY BABY WHY！然后发现不知道为什么即使在 <strong>.gitignore</strong> 中注释了<strong>data</strong>，<strong>data</strong>目录下的文件夹并不是全部都推送到了Github，其中装聊天记录的<strong>Chats</strong>就没有被推送。问好麻吉豆包得到解决方法，需要在 <strong>.gitignore</strong> 的最末尾加上如下两行：</p>
+<pre><code># 新增规则，明确指定 data 文件夹不被忽略
+!data/  
+# 新增规则，明确指定 data 文件夹下的所有内容都不被忽略
+!data/**  
+</code></pre>
+<p>  看了一下加上之后聊天记录的确在推送列了，应该有效。四个月大概真的要折腾好了啊啊啊！话说回来如果没看错的话，Replit现在好像每月有1200分钟也就是50小时的运行时间了。<br>
+<br></p>
+<h1 id="20250622更新大成功">2025/06/22更新：大成功！！！</h1>
+<p>  终于！目前用着没什么问题了！<br>
+  之前忘记写了一个，就是我搭建途中遇到了酒馆加载报CSRF错误。试了各种方法都没解决，索性在<strong>config.yaml</strong>里把CSRF防御关了，即把<strong>disableCsrfProtection</strong>那一行的<code>false</code>改为<code>true</code>。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea自用指南]]></title>
+        <id>http://localhost:4000/post/Gridea自用指南/</id>
+        <link href="http://localhost:4000/post/Gridea自用指南/">
+        </link>
+        <updated>2025-01-04T14:39:23.000Z</updated>
+        <summary type="html"><![CDATA[<p><em>搭建此站的心得体会小作文一篇，技术含量最高的一集。</em><br>
+<em>大概是第一篇认真的记录，毕竟前面都是游戏Repo。</em></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><em>搭建此站的心得体会小作文一篇，技术含量最高的一集。</em><br>
+<em>大概是第一篇认真的记录，毕竟前面都是游戏Repo。</em></p>
+<!-- more -->
+<hr>
+<h1 id="markdown及html相关">Markdown及HTML相关</h1>
+<p>  感觉代码就是各种地方尤其句首句末都需要英文的空格，为什么把这句吐槽写第一句当然是提醒自己不要忘记虽然我基本都是复制嗯。<br>
+  最开始一直以为是Makedown语法也是没谁了。脑子不好所以贴上基础教程：<a href="https://markdown.com.cn/basic-syntax/" title="又忘记了是吧。">Markdown语法教程</a><br/><br>
+  <strong>还有一些自己需要所以搜索过的零散的语法，这里整合一下。</strong><br>
+  Markdown设置字体大小、颜色、类型：<a href="https://blog.csdn.net/weixin_45634365/article/details/115438164" target="_blank">点击直达！</a><br>
+  链接在新窗口打开<code>&lt;a href=&quot;网页链接&quot; target=&quot;_blank&quot;&gt;页面描述&lt;/a&gt;</code><br>
+  中文首行缩进一字符<code>&amp;emsp;</code> 英文首行缩进一字符<code>&amp;ensp;</code><br>
+  换行<code>&lt;br/&gt;</code>  置于句末。如果单独成行则空行较大。<br>
+  文字位置居中<code>&lt;p style=&quot;text-align: center;&quot;&gt;文本&lt;/p&gt;</code> 居左<code>&lt;p style=&quot;text-align: left;&quot;&gt;文本&lt;/p&gt;</code> 居右<code>&lt;p style=&quot;text-align: right;&quot;&gt;文本&lt;/p&gt;</code><br>
+  调整图片大小（适用本地）<code>![自定义图片名称](本地图片路径#pic =50x)</code> 50x是需要的像素，差不多能伪装聊天记录头像那种，我可以沉浸式记坏事了呵呵呵呵。<br/><br>
+  其实Markdown语法本来还可以调整图片位置，但不知道为什么Gridea好像不行。倒是用HTML可以实现，但是不是特别好用，而且对于存在本地的图片不适用，需要图床生成HTTP链接。搜索一番有如下成果：<a href="https://www.cnblogs.com/hangxian/p/18251277">P标签</a>，<a href="https://blog.csdn.net/m0_51350326/article/details/120120444">Div标签</a>。但自己捣鼓没搞出什么名堂，遂问豆包。不得不说真牛逼啊大哥受我一拜。所以后文单独开启了图文排版专栏。<br/><br>
+  还有一个超绝实用但其实只要看那什么就能破解的自欺欺人式<strong>单篇文章设置密码</strong>，需要将代码放在内容开头。其中，猜猜看？是密码输入提示语，0000是密码，520是输入达到该次数自动解锁的数值，错了哦^^是密码错误提示语。</p>
+<pre><code> &lt;script language = JavaScript&gt; function password() {
+   var testV = 1;
+   var pass1 = prompt('猜猜看？','');
+   var passwordforthisarticle = &quot;0000&quot;;
+   var inputtimemax = 520;
+   while (testV &lt; inputtimemax) {
+   if (!pass1)
+   history.go(-1);
+   if (pass1 == passwordforthisarticle) {
+   break;
+   }
+   testV+=1;
+   var pass1 =
+   prompt('错了哦^^');
+   }
+   if (pass1!= passwordforthisarticle &amp; testV == inputtimemax)  
+   history.go(-1);
+   return &quot; &quot;;
+   }
+   document.write(password());
+&lt;/script&gt;
+</code></pre>
+<p>  <strong>2025/02/16更新：</strong> 发现即使加密浏览器在呈现搜索结果预览时，内容的开头部分也会显示出来……于是又让豆包给我改了一个可以防止搜索引擎索引的代码。暂时还不知道有没有用，总之先放在这里。</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;!-- 添加这个标签告诉搜索引擎不要索引该页面 --&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex&quot;&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;script language = JavaScript&gt;
+        function password() {
+            var testV = 1;
+            var pass1 = prompt('猜猜看？','');
+            var passwordforthisarticle = &quot;0000&quot;;
+            var inputtimemax = 520;
+            while (testV &lt; inputtimemax) {
+                if (!pass1)
+                    history.go(-1);
+                if (pass1 == passwordforthisarticle) {
+                    break;
+                }
+                testV += 1;
+                var pass1 = prompt('错了哦^^');
+            }
+            if (pass1 != passwordforthisarticle &amp; testV == inputtimemax)
+                history.go(-1);
+            return &quot; &quot;;
+        }
+        document.write(password());
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+<h1 id="常用图文排版">常用图文排版</h1>
+<p>  谢谢人工智能的馈赠。<br/><br>
+  图片居左、文字在图片右侧；图片居右，文字在图片左侧的代码分别如下。其中图片对齐文字总体中轴。</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;body&gt;
+   &lt;div style=&quot;display: flex; justify-content: flex-end; align-items: center;&quot;&gt;
+       &lt;p style=&quot;margin: 0;&quot;&gt;文本内容&lt;/p&gt;
+       &lt;img src=&quot;图片链接&quot; alt=&quot;图片名称&quot; style=&quot;width: 55px; margin-left: 10px;&quot;&gt;
+   &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;body&gt;
+  &lt;div style=&quot;display: flex; justify-content: flex-start; align-items: center;&quot;&gt;
+      &lt;img src=&quot;图片链接&quot; alt=&quot;图片名称&quot; style=&quot;width: 55px; margin-right: 10px;&quot;&gt;
+      &lt;p style=&quot;margin: 0;&quot;&gt;文本内容&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+<p>  以及一个看起来更高级的拟聊天的代码。</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;body&gt;
+   &lt;div style=&quot;width: 100%; margin: 0 auto; display: flex; flex-direction: column;&quot;&gt;
+       &lt;!-- 最左端消息 --&gt;
+       &lt;div style=&quot;display: flex; align-items: flex-start; margin-bottom: 10px;&quot;&gt;
+           &lt;img src=&quot;图片链接&quot; alt=&quot;Left Avatar&quot; style=&quot;width: 45px; height: 45px; border-radius: 50%; margin-right: 10px;&quot;&gt;
+           &lt;div style=&quot;background-color: #c0c0c0; padding: 8px 12px; border-radius: 12px; max-width: 70%; display: flex; flex-direction: column; align-items: flex-start;&quot;&gt;
+               &lt;p style=&quot;margin: 0;&quot;&gt;文本内容&lt;/p&gt;
+           &lt;/div&gt;
+       &lt;/div&gt;
+       &lt;!-- 最右端消息 --&gt;
+       &lt;div style=&quot;display: flex; justify-content: flex-end; align-items: flex-start; margin-bottom: 10px;&quot;&gt;
+           &lt;div style=&quot;background-color: #e0e0e0;  padding: 8px 12px; border-radius: 12px; max-width: 70%; display: flex; flex-direction: column; align-items: flex-start;&quot;&gt;
+               &lt;p style=&quot;margin: 0;&quot;&gt;文本内容&lt;/p&gt;
+           &lt;/div&gt;
+           &lt;img src=&quot;图片链接&quot; alt=&quot;Right Avatar&quot; style=&quot;width: 45px; height: 45px; border-radius: 50%; margin-left: 10px;&quot;&gt;
+       &lt;/div&gt;
+       &lt;!-- 最左端消息 --&gt;
+       &lt;div style=&quot;display: flex; align-items: flex-start; margin-bottom: 10px;&quot;&gt;
+           &lt;img src=&quot;图片链接&quot; alt=&quot;Left Avatar&quot; style=&quot;width: 45px; height: 45px; border-radius: 50%; margin-right: 10px;&quot;&gt;
+           &lt;div style=&quot;background-color: #c0c0c0;  padding: 8px 12px; border-radius: 12px; max-width: 70%; display: flex; flex-direction: column; align-items: flex-start;&quot;&gt;
+               &lt;p style=&quot;margin: 0;&quot;&gt;文本内容&lt;/p&gt;
+           &lt;/div&gt;
+       &lt;/div&gt;
+       &lt;!-- 最右端消息 --&gt;
+       &lt;div style=&quot;display: flex; justify-content: flex-end; align-items: flex-start; margin-bottom: 10px;&quot;&gt;
+           &lt;div style=&quot;background-color: #e0e0e0;  padding: 8px 12px; border-radius: 12px; max-width: 70%; display: flex; flex-direction: column; align-items: flex-start;&quot;&gt;
+               &lt;p style=&quot;margin: 0;&quot;&gt;文本内容&lt;/p&gt;
+           &lt;/div&gt;
+           &lt;img src=&quot;图片链接&quot; alt=&quot;Right Avatar&quot; style=&quot;width: 45px; height: 45px; border-radius: 50%; margin-left: 10px;&quot;&gt;
+       &lt;/div&gt;
+   &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+<br/>
+<h1 id="提高网页加载速度">提高网页加载速度</h1>
+<p>  最开始用的是Github搭建的网址，但写的游戏Repo带了很多图导致基本看不了图片部分，本就不稳定的速度雪上加霜。考虑过码云，但因为是国内的所以莫名地心生戒备，你猜我为什么研究单篇文章加密.jpg最后发现<strong>Netlify</strong>是不错的选择。应该是海外的，加载速度比Github快了很多，所以目前搭建在Netlify上。<a href="https://open.gridea.dev/netlify" title="Gridea 客户端部署站点到 Netlify 教程">参考教程在此</a>。其中的示例压缩文件已失效，聪明如我去Github的Gridea仓库里扒下来的哦呵呵。<br>
+<br/></p>
+<h1 id="同步相关问题">同步相关问题</h1>
+<p>  本板块写于昨天才夸Netlify结果远程同步就卡在上传死活同步不了的第二天。当然也可能是Gridea的问题。总之解放方法就是把Gridea只当成一个本地渲染的软件，Gridea的上传的渲染文件的存储路径为C:\Users\hp.gridea\output，即output文件夹。所以只需要把output文件夹打包手动上传就行了。的确在我手动上传之后一分钟内就成功了，我真服了。<br>
+  需要注意的是，要得到正确的渲染文件，点“预览”是不行的，上传后的网页打开指向的是本地文件。因此，还是需要通过点击“同步”来取得最终文件。本人的做法是把远程链接的令牌改成错误的，然后点击同步，保险起见等圈转个十分钟左右（如果时间太短可能会渲染不完全），就可以尝试手动上传output文件夹了。<br>
+<br/></p>
+<h1 id="云端同步备份">云端同步备份</h1>
+<p>  了解到Gridea的源文件在本地，每次同步相当于一次仓库全覆盖更新，那么如果在新设备同步就会收获一个空空如也的个站那种事情不要啊之后，小小但聪明的老子思考起了如何云端备份的事。虽然可以用U盘拷贝到时候覆盖目录，但有云端备份总归会安心一些。<br>
+  搜索得到的答案就是使用<strong>Onedrive</strong>或者<strong>坚果云</strong>。本着我那有国外可用国内就算了吧的原则捣鼓起来，发现这玩意竟然只能备份自带目录下的文件夹，我的好像是C盘吧。你的意思是仍然需要我复制文件过去在C盘里装那么多图对吗？不可能。所以拿出万能的搜索引擎，找到了输代码之外的方法：<strong>OnedriveBully</strong>。在Github上可以<a href="https://github.com/ktheod/OneDriveBully">下载</a>，安装程序是单独的那个后缀.msi的东西，教程在打包的zip里。大概是可以设定Onedrive云端备份的频率自动更新，妈妈再也不用担心我的C盘内存和丢档，但要开始担心云端内存，只有5G，呵呵。这个之后再说吧。<br>
+<br/></p>
+<h1 id="图床配置">图床配置</h1>
+<p>  前面的很多代码里插入的图片都需要HTTP格式的链接。如何生成图片链接呢，搜索答曰借助图床。目前使用的图床是<a href="https://sm.ms/">SM.MS</a>，网页端上传图片后点击复制URL即可获得链接。本来下了一个客户端管理图床的<a href="https://picgo.github.io/PicGo-Doc/zh/">Picgo</a>，但用起来不是很顺畅，遂暂时弃用。<br>
+<br/></p>
+<h1 id="主题配置">主题配置</h1>
+<p>  <a href="https://github.com/NeedQuiet/Gridea-theme-concise">Concise</a>是我现在在用的主题，千挑万选啊！虽然猫猫的气泡框被我删了因为擦得不够像猫（停止）。出于搭资料卡一般的本能大概会不定时换色所以这里记录一下一些不同色系的参数。<br>
+<img src="https://s2.loli.net/2025/01/16/PBxoE32i57K1wCg.png" /></p>
+<center>粉粉天使小熊ฅʕ•̫͡•ʔฅ</center><br/> 
+<img src="https://s2.loli.net/2025/01/16/GqZlQjTDsfdKykX.png" />
+<center>冬日限定蓝U.U</center><br/>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[夏空的独白]]></title>
+        <id>http://localhost:4000/post/xia-kong-de-du-bai/</id>
+        <link href="http://localhost:4000/post/xia-kong-de-du-bai/">
+        </link>
+        <updated>2024-12-08T07:26:39.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="http://localhost:4000/post-images/1733643251003.png" alt="" loading="lazy"><br>
+不愧是科学部啊！是说他们为什么会参加这个部啊都是有兴趣吗www还是说过原因我忘了……<br>
+<img src="http://localhost:4000/post-images/1733643397938.png" alt="" loading="lazy"><br>
+啊啊啊女主吐槽有点好笑<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733643715616.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733643758291.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733643785754.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733643867284.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊神经病啊干嘛呀！！！笑死我了！！！<br>
+<img src="http://localhost:4000/post-images/1733644053382.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊这对吗！超现实主义色彩啊！<br>
+<img src="http://localhost:4000/post-images/1733644142407.png" alt="" loading="lazy"><br>
+哦不还没说完呢！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733644231662.png" alt="" loading="lazy"><br>
+好怕后面来个大的（擦汗<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733644433136.png" alt="" loading="lazy"><br>
+笑死我了部长巨大的眼镜猴。好贴切的形容。最差劲惹！！！<br>
+不是被狗咬了就顺手包扎伤口是吧.jpg<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733645011164.png" alt="" loading="lazy"><br>
+哦不……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733645165373.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊女主这反应难得一见的正常得我想笑<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733645352269.png" alt="" loading="lazy"><br>
+？哥们你是轮回敢死队的？你被困在了一个更大的循环里？套娃是吧。<br>
+<img src="http://localhost:4000/post-images/1733645398295.png" alt="" loading="lazy"><br>
+哦不这寂寞苦笑的表情……孩子们准备一下眼泪……<br>
+感觉语气都是听过很多次的语气了……<br>
+<img src="http://localhost:4000/post-images/1733645573481.png" alt="" loading="lazy"><br>
+哦不……悲伤深情男主……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733645808282.png" alt="" loading="lazy"><br>
+部长可爱捏，我资瓷你。<br>
+<img src="http://localhost:4000/post-images/1733646013483.png" alt="" loading="lazy"><br>
+神经病啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊厚礼蟹<br>
+<img src="http://localhost:4000/post-images/1733646249446.png" alt="" loading="lazy"><br>
+我不行了。<br>
+<img src="http://localhost:4000/post-images/1733646371994.png" alt="" loading="lazy"><br>
+我对一些游戏剧情就这样。<br>
+<br/><br>
+笑死我了那个写字也太真实了……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733647092343.png" alt="" loading="lazy"><br>
+私人恩怨。<br>
+猫猫狗狗补药打架~~~<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733647899344.png" alt="" loading="lazy"><br>
+wwwwwwwwww<br>
+<img src="http://localhost:4000/post-images/1733647969358.png" alt="" loading="lazy"><br>
+笑死。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733648406836.png" alt="" loading="lazy"><br>
+太君这边请.jpg<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733648858083.png" alt="" loading="lazy"><br>
+哦不！<br>
+<img src="http://localhost:4000/post-images/1733648995675.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1733649757897.png" alt="" loading="lazy"><br>
+毛咪思索.jpg<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733650906796.png" alt="" loading="lazy"><br>
+笑死了啊啊啊！我乱选的都能选对我无敌了。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733651550091.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733651591107.png" alt="" loading="lazy"><br>
+啊啊……宝宝不哭……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733651680595.png" alt="" loading="lazy"><br>
+爪爪！可爱！这次超整齐！<br>
+<br/><br>
+部长可爱捏。科学眼镜猴。<br>
+部长好聪明。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733672059994.png" alt="" loading="lazy"><br>
+萌。傲娇文学少年内。话说这个存档点只有五个太难受了吧！！！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733672513864.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733672523063.png" alt="" loading="lazy"><br>
+笑死我了啊啊啊啊啊啊啊啊啊啊啊<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733674065030.png" alt="" loading="lazy"><br>
+戴了手表呢……是为了方便见面吗？要是女主能联想到什么问一下就好了……<br>
+<img src="http://localhost:4000/post-images/1733674153246.png" alt="" loading="lazy"><br>
+哥你别说了我害怕。<br>
+哥你是不是见证了女主的失忆……感觉你是女主突破循环就会消失的人……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733674742940.png" alt="" loading="lazy"><br>
+好！<br>
+<img src="http://localhost:4000/post-images/1733674958142.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733674962356.png" alt="" loading="lazy"><br>
+真的好有画面感啊wwwwwwwwwww<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733675392638.png" alt="" loading="lazy"><br>
+笑死我了这个哦哦哦哦哦。<br>
+<br/><br>
+原来是喜闻乐见（？）的换衣闯入情节。我将一一品鉴。<br>
+<img src="http://localhost:4000/post-images/1733676149091.png" alt="" loading="lazy"><br>
+筿原困www倒吸一口凉皮。为什么是我在道歉啊.jpg<br>
+<img src="http://localhost:4000/post-images/1733676280916.png" alt="" loading="lazy"><br>
+超绝钝感部长！<br>
+<img src="http://localhost:4000/post-images/1733676420347.png" alt="" loading="lazy"><br>
+脸红的木野武士思密达！<br>
+<img src="http://localhost:4000/post-images/1733676565295.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733676586920.png" alt="" loading="lazy"><br>
+对。葵酱做得好。<br>
+<img src="http://localhost:4000/post-images/1733676668813.png" alt="" loading="lazy"><br>
+这个倒吸一口气之后的嗯好可爱啊www鼻血~~~~<br>
 <br/><br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732713310382.png" alt="" loading="lazy"><br>
-霓虹人特有的开局修罗场也是让我吃上了。虽然真的场面好尴尬但智成这种小猫护食的表情好萌&gt;.&lt;（还好没出选项）<br>
 <br/><br>
-话说回来奇虚都没有感情只是模仿的话，国孝哥也善解人意得太恐怖了，甚至会养小鸟，这也是模仿的一环吗.jpg 欢乐谷效应犯了（这对吗）<br>
+<img src="http://localhost:4000/post-images/1733723122652.png" alt="" loading="lazy"><br>
+哎呀……<br>
+<img src="http://localhost:4000/post-images/1733723237389.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733723241494.png" alt="" loading="lazy"><br>
+啊啊啊啊完美得要命啊！！！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732713838435.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732713903162.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732713942207.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732713970001.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732714003339.png" alt="" loading="lazy"><br>
-好萌好萌，你们三个都是首领大人的后辈哒！猫猫刘海都被压扁了，想画（想）<br>
+<img src="http://localhost:4000/post-images/1733723341124.png" alt="" loading="lazy"><br>
+OHHHHHHHHHHHHHHHHHHHHHHH<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732714664086.png" alt="" loading="lazy"><br>
-选提出这个问题会加国孝哥好感度啊……！这个好感度的增加设置让我想到了之前玩绯色流星www喜欢这种，不是目的性的讨好，而是因为自身品质之类的。还有智成你其实是笨蛋吧.jpg<br>
-<img src="https://NianiaNiam.github.io/post-images/1732714883591.png" alt="" loading="lazy"><br>
-萌死了。我们猫的面子在哪里啊！<br>
+好喜欢部长中气十足说修困的时候www诸位！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732720665972.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732720736555.png" alt="" loading="lazy"><br>
-早期Chat GPT，蒽。<br>
+<img src="http://localhost:4000/post-images/1733723741733.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊笑死我了这科科科科科谁配的音啊！<br>
+<img src="http://localhost:4000/post-images/1733723865879.png" alt="" loading="lazy"><br>
+啊啊啊啊啊我要笑死了突然喊职称是要干嘛！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732721652915.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732721658267.png" alt="" loading="lazy"><br>
-可爱……又像狗狗了……整天就这样忍不住塑来塑去<br>
+<img src="http://localhost:4000/post-images/1733724122852.png" alt="" loading="lazy"><br>
+突然在别人的身体里帅气了起来.jpg<br>
+<img src="http://localhost:4000/post-images/1733724275566.png" alt="" loading="lazy"><br>
+？干嘛？干嘛？喂不要用别人的脸做这种事啊！！！！！！！！！！！！！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732721987149.png" alt="" loading="lazy"><br>
-哎呀好可爱莫名有点这种😗 太好了是电波系我们有救了（是电波系吗你就电波系<br>
+<img src="http://localhost:4000/post-images/1733724467272.png" alt="" loading="lazy"><br>
+www话说我这是进了部长的线吗？<br>
+<img src="http://localhost:4000/post-images/1733724568498.png" alt="" loading="lazy"><br>
+哇……<br>
+<img src="http://localhost:4000/post-images/1733724649226.png" alt="" loading="lazy"><br>
+孤独的天才眼镜猴一枚……<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732723048777.png" alt="" loading="lazy"><br>
-所谓与生俱来的吃醋力 感觉智成的那个小盒子（叫什么来着）会是女主母亲遗物呢<br>
+哦不这是什么BGM啊给我来真的吗不要啊！！！<br>
+吓我是吧。但是感觉又有点不安desu...<br>
+<img src="http://localhost:4000/post-images/1733724999141.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733725009566.png" alt="" loading="lazy"><br>
+免费被试是吧你小子。<br>
+<img src="http://localhost:4000/post-images/1733725058350.png" alt="" loading="lazy"><br>
+啊wwwwwwwwwwwwww<br>
+喂怎么有合同啊。随身带着是吧。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732724710717.png" alt="" loading="lazy"><br>
-起名为哒咩忠犬猫 物种好丰富的名字<br>
+他不说话是时候真的很帅气.jpg<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732725027629.png" alt="" loading="lazy"><br>
-好猫好狗好智成 但是感觉CG画得不是很好看;;;但是剧情感觉挺有意思的至少我不会想睡觉……<br>
+<img src="http://localhost:4000/post-images/1733725616999.png" alt="" loading="lazy"><br>
+眼镜闪光邪恶猴！<br>
+<img src="http://localhost:4000/post-images/1733725745951.png" alt="" loading="lazy"><br>
+萌。我要画.jpg<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732725156198.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732725224937.png" alt="" loading="lazy"><br>
-哦不 确实一想起奇虚的设定就忍不住会这样问……但是智成应该是和女主有关的物品所以出于本能这样吧……即使情感和记忆都被封印，但还有珍惜你爱你的本能……<br>
+嗯……那个录音是部长和他爸爸吗？爸爸说不定去世了……<br>
+不会真是部长干的吧我一上来就把真相线开了？（擦汗）<br>
+说不定部长也意外地脆弱不想迎来明天呢……<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732725411243.png" alt="" loading="lazy"><br>
-哎呀好想看心路历程……不过好像只有BE才有呢？但是我觉得我第一遍应该打不出HE的，蒽！（自信）（在自信什么）<br>
+<img src="http://localhost:4000/post-images/1733726810606.png" alt="" loading="lazy"><br>
+喂！！！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732725575046.png" alt="" loading="lazy"><br>
-太好了是熟悉的人机感我吃吃吃<br>
+果然提出时光理论的人就是部长父亲呢……<br>
+提普勒柱体……<br>
+想要时间倒流复活父亲吗？但是又感觉部长不像这种人……他只是想证明……<br>
+好吧果然是要复活父亲。不过不会有蝴蝶效应吗。<br>
+<img src="http://localhost:4000/post-images/1733727600170.png" alt="" loading="lazy"><br>
+是啊……感觉BE会很痛苦思密达。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732726119558.png" alt="" loading="lazy"><br>
-拔刀的时候超帅...<br>
+我服了。我不想看做饭！！！<br>
+<img src="http://localhost:4000/post-images/1733727905276.png" alt="" loading="lazy"><br>
+向天狂吼笑死。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732726815256.png" alt="" loading="lazy"><br>
-啊哈哈哈哈单相思！！！<br>
-<img src="https://NianiaNiam.github.io/post-images/1732726888708.png" alt="" loading="lazy"><br>
-嗯好帅啊哥……<br>
-<img src="https://NianiaNiam.github.io/post-images/1732726946578.png" alt="" loading="lazy"><br>
-好萌啊……但是感觉CG质量真的一般般思密达……<br>
+<img src="http://localhost:4000/post-images/1733728047569.png" alt="" loading="lazy"><br>
+浪漫的科学眼镜猴。<br>
+<img src="http://localhost:4000/post-images/1733728139723.png" alt="" loading="lazy"><br>
+啊……<br>
+<img src="http://localhost:4000/post-images/1733728184976.png" alt="" loading="lazy"><br>
+哦部长……<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732727150727.png" alt="" loading="lazy"><br>
-可爱<sub>不告诉你</sub><br>
+<img src="http://localhost:4000/post-images/1733728541379.png" alt="" loading="lazy"><br>
+果然会有蝴蝶效应吧？<br>
+那个父亲的朋友不会是白毛吧.jpg<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732727320507.png" alt="" loading="lazy"><br>
-孩子们是群像我们有救了 可爱呀……<br>
-<img src="https://NianiaNiam.github.io/post-images/1732727410376.png" alt="" loading="lazy"><br>
-（此时笑得很开心的狗）<br>
+<img src="http://localhost:4000/post-images/1733728776777.png" alt="" loading="lazy"><br>
+喂。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733729143771.png" alt="" loading="lazy"><br>
+果然有蝴蝶效应呢……<br>
+<img src="http://localhost:4000/post-images/1733729264440.png" alt="" loading="lazy"><br>
+哎……但是女主失忆了仰仗的只有科学部的记忆了……话说穿越回去不会带着记忆吗？那样的话之后也成立科学部不就好了……？<br>
+<img src="http://localhost:4000/post-images/1733729382718.png" alt="" loading="lazy"><br>
+哦不……连遗忘本身都会被遗忘……<br>
+……存档点为什么叫谢谢啊。我好害怕啊啊啊啊啊啊啊啊啊啊啊。。。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733729739444.png" alt="" loading="lazy"><br>
+补药啊……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733729984049.png" alt="" loading="lazy"><br>
+呜啊啊啊啊啊啊啊啊啊啊大家都是好人……好宝宝……部长其实说得对这种事就是有点践踏他人的感情……毕竟，每个人都有自己的痛苦……不过感觉大家这样支持部长的话说不定部长反而舍不得了呢……<br>
+<img src="http://localhost:4000/post-images/1733730061946.png" alt="" loading="lazy"><br>
+啊啊啊啊啊TT……<br>
+<br/><br>
+什么最优解。我害怕。<br>
+要一起去就把大家一起带回去啊！！！话说女主之前还失忆了呢……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733730448102.png" alt="" loading="lazy"><br>
+怎么这种时候突然开始恋爱了。点播一首恋学者。<br>
+什么树丛响动是不是其他人啊！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733730559352.png" alt="" loading="lazy"><br>
+眼睛好大！<br>
+哦……忘记不是灵魂穿梭啊。另一个自己存在的话就很麻烦……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733730834732.png" alt="" loading="lazy"><br>
+哦不……<br>
+<img src="http://localhost:4000/post-images/1733730960168.png" alt="" loading="lazy"><br>
+部长……<br>
+<img src="http://localhost:4000/post-images/1733731015242.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊不要这样说啊TTTTTTTTTTTTT<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733731112196.png" alt="" loading="lazy"><br>
+真厉害呢部长TT要是父亲能对他说点什么就好了……会不会回家发现了父亲留下的东西呢……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733731241084.png" alt="" loading="lazy"><br>
+哇TT…………………………<br>
+<img src="http://localhost:4000/post-images/1733731300037.png" alt="" loading="lazy"><br>
+标准情节（<br>
+笨蛋啊要女主主动！<br>
+<img src="http://localhost:4000/post-images/1733731463238.png" alt="" loading="lazy"><br>
+好……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733731472504.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733731507804.png" alt="" loading="lazy"><br>
+修困！<br>
+<br/><br>
+打了一个看起来是部长HE结局……感觉这个系统好复杂哦。我一直读档不也是在循环吗……难道有meta要素……？<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733758257879.png" alt="" loading="lazy"><br>
+二周目……。开头感觉这也是循环的一部分呢。<br>
+失忆是为了循环吗……<br>
+<img src="http://localhost:4000/post-images/1733758406156.png" alt="" loading="lazy"><br>
+啊啊……不会之后每次重开都有这个吧……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733758538069.png" alt="" loading="lazy"><br>
+好青春www~~~<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733758739786.png" alt="" loading="lazy"><br>
+wwwwww<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733758965232.png" alt="" loading="lazy"><br>
+发卡萌呀！<br>
+<img src="http://localhost:4000/post-images/1733759114175.png" alt="" loading="lazy"><br>
+喂！<br>
+<img src="http://localhost:4000/post-images/1733759350935.png" alt="" loading="lazy"><br>
+吃货啊wwwwwwwww<br>
+<img src="http://localhost:4000/post-images/1733759461960.png" alt="" loading="lazy"><br>
+就这样哄傲娇啊wwwwwwwwwww<br>
+<img src="http://localhost:4000/post-images/1733759516597.png" alt="" loading="lazy"><br>
+哎呀太萌了……大家都好好哦……白板上还有小人……即使在循环的时间里也要开生日会呀！<br>
+<img src="http://localhost:4000/post-images/1733759693975.png" alt="" loading="lazy"><br>
+喂为什么是那种走向啊！<br>
+<img src="http://localhost:4000/post-images/1733759763772.png" alt="" loading="lazy"><br>
+没头脑和不高兴（不是<br>
 <br/><br>
 <br/><br>
-<em><strong>2024.11.28</strong></em><br>
 <br/><br>
+<img src="http://localhost:4000/post-images/1733820944691.png" alt="" loading="lazy"><br>
+智商超群眼镜猴啊！<br>
+<img src="http://localhost:4000/post-images/1733821344963.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733821348732.png" alt="" loading="lazy"><br>
+修困！！！！！！！！！！！！太萌了我要画www<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732774597414.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733822046012.png" alt="" loading="lazy"><br>
+在燃什么wwwwwww<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733822127243.png" alt="" loading="lazy"><br>
+哥们……哦不……<br>
+<br/><br>
+心怦怦的观察日记www让我来一个一个看~~~<br>
+<img src="http://localhost:4000/post-images/1733822591201.png" alt="" loading="lazy"><br>
+木野濑你说的这个认识的人是谁.jpg<br>
+<img src="http://localhost:4000/post-images/1733822780307.png" alt="" loading="lazy"><br>
+萨斯噶森被！<br>
+感觉木野和贺阳都喜欢女主www<br>
+<img src="http://localhost:4000/post-images/1733822908049.png" alt="" loading="lazy"><br>
+什么选项啊啊啊啊啊啊啊啊啊笑死我<br>
+<img src="http://localhost:4000/post-images/1733823370370.png" alt="" loading="lazy"><br>
+突然正经眼镜猴。<br>
+<img src="http://localhost:4000/post-images/1733823420756.png" alt="" loading="lazy"><br>
+哦不……部长你会幸福的……<br>
+<img src="http://localhost:4000/post-images/1733823668044.png" alt="" loading="lazy"><br>
+猫……你……<br>
+<img src="http://localhost:4000/post-images/1733823725190.png" alt="" loading="lazy"><br>
+用敬语说着不礼貌的事呢.jpg<br>
+<img src="http://localhost:4000/post-images/1733823975500.png" alt="" loading="lazy"><br>
+？你是谁？你不是在说书里的台词吧喂！点播一首文学讲义。<br>
+<img src="http://localhost:4000/post-images/1733824214128.png" alt="" loading="lazy"><br>
+喂！你果然是在可怜我吧！<br>
+<img src="http://localhost:4000/post-images/1733824260594.png" alt="" loading="lazy"><br>
+坏猫！<br>
+<img src="http://localhost:4000/post-images/1733824549850.png" alt="" loading="lazy"><br>
+老师亚萨西内。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733830037872.png" alt="" loading="lazy"><br>
+是的非常重要.jpg<br>
+<img src="http://localhost:4000/post-images/1733830812775.png" alt="" loading="lazy"><br>
+笑死。<br>
+<img src="http://localhost:4000/post-images/1733830890552.png" alt="" loading="lazy"><br>
+礼崩乐坏啊！<br>
+<img src="http://localhost:4000/post-images/1733830987741.png" alt="" loading="lazy"><br>
+我服了啊啊啊，那你这恋爱线主打一个背德感是吧。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733831331349.png" alt="" loading="lazy"><br>
+似李！绵森枫！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733831746503.png" alt="" loading="lazy"><br>
+电玩毛咪暴揍狗！<br>
+要睡在谁旁边捏~~<br>
+<img src="http://localhost:4000/post-images/1733831993149.png" alt="" loading="lazy"><br>
+纯情捏。<br>
+<img src="http://localhost:4000/post-images/1733832066572.png" alt="" loading="lazy"><br>
+是失忆前的女主吧……！<br>
+<img src="http://localhost:4000/post-images/1733832269305.png" alt="" loading="lazy"><br>
+你一天就睡吧你！<br>
+<img src="http://localhost:4000/post-images/1733832625403.png" alt="" loading="lazy"><br>
+啊啊部长……<br>
+<img src="http://localhost:4000/post-images/1733833192271.png" alt="" loading="lazy"><br>
+笑死我了，自觉猫。<br>
+<img src="http://localhost:4000/post-images/1733833494129.png" alt="" loading="lazy"><br>
+不愧是文艺猫。<br>
+<img src="http://localhost:4000/post-images/1733833609557.png" alt="" loading="lazy"><br>
+我嘞个人生导师猫啊！<br>
+<img src="http://localhost:4000/post-images/1733833697014.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733833702187.png" alt="" loading="lazy"><br>
+萌。<br>
+<img src="http://localhost:4000/post-images/1733833851422.png" alt="" loading="lazy"><br>
+哦老师……<br>
+<br/><br>
+啊啊是第一周目的石像 ……剧情会变的话总感觉好像有些剧情就看不到了啊！？<br>
+咦……那如果进了其他人的线，部长岂不是就会去改变过去了吗……毕竟是循环啊……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733834444313.png" alt="" loading="lazy"><br>
+萌呀萌呀……<br>
+<img src="http://localhost:4000/post-images/1733834481656.png" alt="" loading="lazy"><br>
+两只仓鼠！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733834596512.png" alt="" loading="lazy"><br>
+哥你又来了……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733834757880.png" alt="" loading="lazy"><br>
+感觉看了剧本（。）<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733835256723.png" alt="" loading="lazy"><br>
+两个学弟都怕鬼啊www<br>
+<img src="http://localhost:4000/post-images/1733835340973.png" alt="" loading="lazy"><br>
+贺阳是一名柔弱男子。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733845695750.png" alt="" loading="lazy"><br>
+喊着友情啊羁绊啊就冲上来了。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733846280599.png" alt="" loading="lazy"><br>
+要了解一个人肯定不是这么简单的事！<br>
+<img src="http://localhost:4000/post-images/1733846327939.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733846385108.png" alt="" loading="lazy"><br>
+尊嘟假嘟……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733846798644.png" alt="" loading="lazy"><br>
+森莫……意思……<br>
+不会是大家之前都认识女主，然后后面发生了一些事情，是大家的思绪让这个超大的循环开始的吗……？<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733847026096.png" alt="" loading="lazy"><br>
+呜哇……是女主的肖像欸……不会是贺阳画的吧没看出来啊……<br>
+什么是长发女性啊。难道是贺阳妈妈贺阳姐姐还是女主之前的样子（擦汗）不要因为方便用让人误会的CG啊！<br>
+前一天上色的地方今天没上色……在循环开始之前就没上色吧。昨天碰巧想继续画……？<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733847466914.png" alt="" loading="lazy"><br>
+笑死www可爱捏！<br>
+<img src="http://localhost:4000/post-images/1733847388498.png" alt="" loading="lazy"><br>
+你好传说中的傲娇。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733847684042.png" alt="" loading="lazy"><br>
+画画，画画好啊。<br>
+专门用左手画画吗……<br>
+<img src="http://localhost:4000/post-images/1733848088919.png" alt="" loading="lazy"><br>
+我循环绝对不会想到要做的事情出现了。竟然以此来不断磨练画技太恐怖了啊啊啊啊啊啊啊啊啊无痛撤回啊！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733848267537.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733848295105.png" alt="" loading="lazy"><br>
+真的呀www好可爱~<s>少女恋爱吧！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733848583295.png" alt="" loading="lazy"><br>
+感谢眼镜猴的脑补能力给我们带来一张实际不存在的CG<br>
+<img src="http://localhost:4000/post-images/1733848750328.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊部长可爱……恶补结果显著啊！<br>
+<img src="http://localhost:4000/post-images/1733848810597.png" alt="" loading="lazy"><br>
+两个看戏是吧。<br>
+<img src="http://localhost:4000/post-images/1733848859543.png" alt="" loading="lazy"><br>
+好人啊哥……心疼你一下……<br>
+<img src="http://localhost:4000/post-images/1733848994822.png" alt="" loading="lazy"><br>
+唔……<br>
+<img src="http://localhost:4000/post-images/1733849090923.png" alt="" loading="lazy"><br>
+莫名地……很想截www<br>
+<br/><br>
+果然要说学姐是原型吧！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733849198507.png" alt="" loading="lazy"><br>
+我也……叹气……<br>
+<img src="http://localhost:4000/post-images/1733849248504.png" alt="" loading="lazy"><br>
+真是的直说不行吗我们女主会伤心的……！<br>
+<img src="http://localhost:4000/post-images/1733849320922.png" alt="" loading="lazy"><br>
+真好……<br>
+<img src="http://localhost:4000/post-images/1733849389045.png" alt="" loading="lazy"><br>
+呵呵呵呵真青春啊（姨母笑<br>
+<img src="http://localhost:4000/post-images/1733849494706.png" alt="" loading="lazy"><br>
+呵呵呵呵呵呵呵呵呵姨姨我啊最喜欢看小情侣打电话了<br>
+<img src="http://localhost:4000/post-images/1733849598654.png" alt="" loading="lazy"><br>
 可爱www<br>
-<img src="https://NianiaNiam.github.io/post-images/1732774665468.png" alt="" loading="lazy"><br>
-哎呀哎呀……好亚萨西的画面，笑得好可爱……<br>
-<img src="https://NianiaNiam.github.io/post-images/1732774748255.png" alt="" loading="lazy"><br>
-人机，我们喜欢你。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732774807740.png" alt="" loading="lazy"><br>
-人机！！！我们喜欢你！！！<br>
-<img src="https://NianiaNiam.github.io/post-images/1732774905240.png" alt="" loading="lazy"><br>
-人机……直球而不自知的人机……人机是不可以变成丈夫的口牙……<br>
-<br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775100201.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775107638.png" alt="" loading="lazy"><br>
-完了我们三春姐姐遇上真人机了。<br>
-<br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775312352.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775320946.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775326918.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775332313.png" alt="" loading="lazy"><br>
-笑疯了所谓男的一巴掌女的一巴掌当街吵架的更是两巴掌<br>
-<br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775511391.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732775520130.png" alt="" loading="lazy"><br>
-京士郎大人你是一个Chat GPT。<br>
-<br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732776228098.png" alt="" loading="lazy"><br>
-是呀是呀；；……<br>
+<img src="http://localhost:4000/post-images/1733849647945.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733849708943.png" alt="" loading="lazy"><br>
+哎呀我测太萌了。<br>
 <br/><br>
 <br/><br>
-奶奶的。告诉我锁线就随便给我个剧情杀整死了。我讨厌你。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733900845685.png" alt="" loading="lazy"><br>
+我服了。木野贺阳你俩就是那种青春三角恋疼痛剧是吧。<br>
+呵呵呵说不定拒绝了（<br>
+女主发现自己喜欢对方下一步就告白了啊啊啊哈哈哈年轻真好（喂<br>
+<img src="http://localhost:4000/post-images/1733901025711.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733901032264.png" alt="" loading="lazy"><br>
+喜喜喜喜……<br>
+<img src="http://localhost:4000/post-images/1733901129891.png" alt="" loading="lazy"><br>
+谁跟你开玩笑啊！！！！！！！！！！！！！<br>
+<img src="http://localhost:4000/post-images/1733901200141.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733901204264.png" alt="" loading="lazy"><br>
+喂！！！难道你是玩弄少女心的类型吗！？！？？<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733901338603.png" alt="" loading="lazy"><br>
+大画家啊www原来QQ人是你画的！<br>
+<br/><br>
+我嘞个海外集训啊……五年……<br>
+<img src="http://localhost:4000/post-images/1733901907784.png" alt="" loading="lazy"><br>
+哦……<br>
+我才发现贺阳左手有手镯欸……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733902236844.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733902266388.png" alt="" loading="lazy"><br>
+（擦汗）<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733902377110.png" alt="" loading="lazy"><br>
+不知道为啥眼泪就开始打转惹TT<br>
+<img src="http://localhost:4000/post-images/1733902525909.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733902529864.png" alt="" loading="lazy"><br>
+哦不……<br>
+<img src="http://localhost:4000/post-images/1733902593167.png" alt="" loading="lazy"><br>
+果然是一年前的事情啊……<br>
+<img src="http://localhost:4000/post-images/1733902674559.png" alt="" loading="lazy"><br>
+卧槽不要啊。。。什么特修斯之船。。。<br>
+<img src="http://localhost:4000/post-images/1733902765196.png" alt="" loading="lazy"><br>
+啊啊啊宝宝和夕阳好配啊……<br>
+<img src="http://localhost:4000/post-images/1733902855852.png" alt="" loading="lazy"><br>
+狗……狗好……<br>
+<img src="http://localhost:4000/post-images/1733902881538.png" alt="" loading="lazy"><br>
+太帅了宝宝。<br>
+<img src="http://localhost:4000/post-images/1733902969016.png" alt="" loading="lazy"><br>
+www……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733903132503.png" alt="" loading="lazy"><br>
+啊啊真好……<br>
+竟然是精英家庭出身啊……真的完全看不出来……<br>
+<img src="http://localhost:4000/post-images/1733903287906.png" alt="" loading="lazy"><br>
+好可爱！<br>
+<img src="http://localhost:4000/post-images/1733903446509.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733903451156.png" alt="" loading="lazy"><br>
+哦……<br>
+<img src="http://localhost:4000/post-images/1733903680213.png" alt="" loading="lazy"><br>
+哦不……<br>
+<img src="http://localhost:4000/post-images/1733903773616.png" alt="" loading="lazy"><br>
+以前是长头发呢……<br>
+<img src="http://localhost:4000/post-images/1733903855200.png" alt="" loading="lazy"><br>
+啊啊……为什么我没有注意到这么美丽的景色呢？<br>
+<img src="http://localhost:4000/post-images/1733903942408.png" alt="" loading="lazy"><br>
+TT……<br>
+<img src="http://localhost:4000/post-images/1733904397549.png" alt="" loading="lazy"><br>
+完全是……<br>
+<img src="http://localhost:4000/post-images/1733904518108.png" alt="" loading="lazy"><br>
+宝宝呀……<br>
+哦这个插画直接衔接过去和现实了……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733904635336.png" alt="" loading="lazy"><br>
+呜呜呜……<br>
+<img src="http://localhost:4000/post-images/1733904681873.png" alt="" loading="lazy"><br>
+可恶的异国恋……<br>
+<img src="http://localhost:4000/post-images/1733904766627.png" alt="" loading="lazy"><br>
+好……<br>
+<img src="http://localhost:4000/post-images/1733905030673.png" alt="" loading="lazy"><br>
+狗好……<br>
+<img src="http://localhost:4000/post-images/1733905068060.png" alt="" loading="lazy"><br>
+快进到求婚。<br>
+<img src="http://localhost:4000/post-images/1733905111442.png" alt="" loading="lazy"><br>
+即便如此啊……<br>
+<img src="http://localhost:4000/post-images/1733905201472.png" alt="" loading="lazy"><br>
+哦天哪……意义重大啊……<br>
+<img src="http://localhost:4000/post-images/1733905251612.png" alt="" loading="lazy"><br>
+啊啊啊……<br>
+<br/><br>
+汗流浃背了。这是什么结局怎么突然结束了。我觉得很合理啊NE吗（擦汗<br>
+这不对吧为什么我主页没有贺阳，为啥。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1733905685544.png" alt="" loading="lazy"><br>
+什么呀我选错选项了吗……呜呜……但是那种情况就是想说喜欢嘛……但是没有一次HE好挫败呜哇……<br>
+<img src="http://localhost:4000/post-images/1733905807522.png" alt="" loading="lazy"><br>
+哦</s>~亲亲<s><s><s>这是爱啊</s>~<br>
 <br/><br>
 <br/><br>
-关闭游戏一分钟，国孝哥我来了。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732778217231.png" alt="" loading="lazy"><br>
-不好的预感（擦汗<br>
+<img src="http://localhost:4000/post-images/1733988388061.png" alt="" loading="lazy"><br>
+好歹是个男人.jpg<br>
+<img src="http://localhost:4000/post-images/1733988449996.png" alt="" loading="lazy"><br>
+葵酱你是一个复读机。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732778735584.png" alt="" loading="lazy"><br>
-我嘞个平地摔亲亲天气真好啊。土，但原谅。这个侧脸脸红还挺可爱的。不过感觉有点恋爱脑……虽然正常可能也差不多是这样但写出来一句句看就好尴尬啊啊啊！<br>
+<img src="http://localhost:4000/post-images/1733988755473.png" alt="" loading="lazy"><br>
+哦哟。<br>
+<img src="http://localhost:4000/post-images/1733988892387.png" alt="" loading="lazy"><br>
+查询一句话八嘎含量。<br>
+<img src="http://localhost:4000/post-images/1733989770608.png" alt="" loading="lazy"><br>
+科学眼镜猴啊！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732779046645.png" alt="" loading="lazy"><br>
-狗啊！一个人和猫相处太危险了带上狗吧！（这不是国孝线吗怎么还在狗<br>
+<img src="http://localhost:4000/post-images/1733989933540.png" alt="" loading="lazy"><br>
+那哥你就不要偷偷藏不住啊！<br>
 <br/><br>
-哎……难道要满好感才能HE吗……继续看看……<br>
+<img src="http://localhost:4000/post-images/1733990094370.png" alt="" loading="lazy"><br>
+笑死啦啊啊啊啊啊啊啊啊哈哈哈<br>
+<img src="http://localhost:4000/post-images/1733990303649.png" alt="" loading="lazy"><br>
+你要说私人恩怨也没有吧jpg<br>
+<img src="http://localhost:4000/post-images/1733990443476.png" alt="" loading="lazy"><br>
+我嘞个大反派啊。女主你是一个小包子。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732781433119.png" alt="" loading="lazy"><br>
-奇怪……不是说被封印记忆了吗，为什么大家会知道国孝主人的事……<br>
-册那原来是恢复记忆了，算PTSD吗这。那搞个这个变回物品的BE还真就像抱着遗物守寡啊啊啊啊啊，我服了。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732781566633.png" alt="" loading="lazy"><br>
-尼玛。好吧。不准用怜悯的眼神看我了。<br>
-找到了证物是无辜的，那有咋样呢，不是说取回了心和记忆的奇虚都会被处理掉吗。好像。<br>
+<img src="http://localhost:4000/post-images/1733990968120.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733991014814.png" alt="" loading="lazy"><br>
+哦……浪漫科学眼镜猴……<br>
+<img src="http://localhost:4000/post-images/1733991135679.png" alt="" loading="lazy"><br>
+狗好！<br>
+<img src="http://localhost:4000/post-images/1733991206896.png" alt="" loading="lazy"><br>
+可爱捏。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732782058658.png" alt="" loading="lazy"><br>
-这句可爱又帅帅的呢……亚萨西女主。<br>
+我嘞个都循环到冬天了……大循环是几月啊？<br>
+<img src="http://localhost:4000/post-images/1733991503075.png" alt="" loading="lazy"><br>
+笑死了，不会被冻僵吗。<br>
+<img src="http://localhost:4000/post-images/1733991716760.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1733991797462.png" alt="" loading="lazy"><br>
+笑死了猫开始坏笑。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732783900936.png" alt="" loading="lazy"><br>
-册那别这样。<br>
+<img src="http://localhost:4000/post-images/1733992328619.png" alt="" loading="lazy"><br>
+啊啊啊啊啊兄弟兄弟……<br>
+<img src="http://localhost:4000/post-images/1733992443096.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1733992496031.png" alt="" loading="lazy"><br>
+证件照睡颜www<br>
+<img src="http://localhost:4000/post-images/1733992630766.png" alt="" loading="lazy"><br>
+笑死我了。变态部长啊！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732784329802.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732784401370.png" alt="" loading="lazy"><br>
-国孝哥你是否需要心理援助。女主好宝宝。<br>
-我不行了，铁窗泪，啊啊啊啊啊……<br>
-<img src="https://NianiaNiam.github.io/post-images/1732784509929.png" alt="" loading="lazy"><br>
-之前女主也是这样想你的呢……<br>
+<img src="http://localhost:4000/post-images/1733992780337.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732784669707.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732784676307.png" alt="" loading="lazy"><br>
-哈哈哈哈哈吃瘪了……我也没想到……<br>
-<img src="https://NianiaNiam.github.io/post-images/1732784734348.png" alt="" loading="lazy"><br>
-笑死我了，太刚了我喜欢。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732784845566.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732785006786.png" alt="" loading="lazy"><br>
-笑死我了，你先活下来我不想跟一心赴死的人谈恋爱.jpg<br>
+<img src="http://localhost:4000/post-images/1733994265336.png" alt="" loading="lazy"><br>
+JK啊！！！萌！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732785727318.png" alt="" loading="lazy"><br>
-哦不，冷漠淡淡的狗……<br>
+<img src="http://localhost:4000/post-images/1733994516962.png" alt="" loading="lazy"><br>
+我嘞个超绝速度啊。好吧不是。<br>
+<img src="http://localhost:4000/post-images/1733995350328.png" alt="" loading="lazy"><br>
+我嘞个按头啊。<br>
+<img src="http://localhost:4000/post-images/1734002506584.png" alt="" loading="lazy"><br>
+狼烟。<br>
+<img src="http://localhost:4000/post-images/1734002703744.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734002708618.png" alt="" loading="lazy"><br>
+笑得难受啊啊啊啊啊啊啊啊啊啊啊怎样都好<br>
+<img src="http://localhost:4000/post-images/1734004003175.png" alt="" loading="lazy"><br>
+脚趾扣地思密达。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732786154555.png" alt="" loading="lazy"><br>
-我服了。<br>
+<img src="http://localhost:4000/post-images/1734004408852.png" alt="" loading="lazy"><br>
+笑死。做饭做饭我们爱做饭。<br>
 <br/><br>
-你们补药在这种时候谈恋爱了。别摔了，别抱了。<br>
+啥啊。所以那个女生是不是女主啊。看起来像又不像的。女主有点恋爱脑了这线，被凶了呢（。<br>
+可能就是女主吧，木野濑以为自己被抛弃了其实对方也有苦衷什么的。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732787412290.png" alt="" loading="lazy"><br>
-这种时候也要让我莫名其妙笑一下吗。<br>
+<img src="http://localhost:4000/post-images/1734005264685.png" alt="" loading="lazy"><br>
+还真是啊我测。吓晕，有点狗血啊啊啊那岂不是和科学部里的其他人谈的时候前任就在旁边啊啊啊啊啊啊。<br>
+什么替身文学（擦汗<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732788215888.png" alt="" loading="lazy"><br>
-豆……豆好……<br>
+<img src="http://localhost:4000/post-images/1734005785008.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734005817585.png" alt="" loading="lazy"><br>
+浑身难受我测。<br>
+两个人果然不一样啊……贺阳真厉害呢……不过他之前也没有跟女主交往，所以木野濑也惨惨的……<br>
+<img src="http://localhost:4000/post-images/1734005926851.png" alt="" loading="lazy"><br>
+哦不……<br>
+<img src="http://localhost:4000/post-images/1734006044905.png" alt="" loading="lazy"><br>
+两个人都是一样的吧……话说我是不是BE了.jpg<br>
+<img src="http://localhost:4000/post-images/1734006243213.png" alt="" loading="lazy"><br>
+啊？.jpg<br>
+呃呃呃话说绵森枫不会就是TREE吧毕竟CG里都有个TREE到底是什么科幻故事啊（擦汗<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732788652147.png" alt="" loading="lazy"><br>
-啊啊啊啊啊啊啊啊啊啊啊不要在幼儿园放学的时候求婚啊！<br>
+<img src="http://localhost:4000/post-images/1734006793367.png" alt="" loading="lazy"><br>
+哎……<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732800820233.png" alt="" loading="lazy"><br>
-根本就没有人会讨厌心上人对自己说这种话……啊话说之前没有截图，智成还问我幸福吗……不知道为什么有点揪心，好怕他之后每条线都这样问我（。<br>
+<img src="http://localhost:4000/post-images/1734007357389.png" alt="" loading="lazy"><br>
+我嘞个纯爱啊。<br>
+<img src="http://localhost:4000/post-images/1734007586488.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734007635029.png" alt="" loading="lazy"><br>
+明明很狗血为什么我还是看得想哭啊啊啊啊啊啊啊啊啊啊啊啊啊啊没救了<br>
+<img src="http://localhost:4000/post-images/1734008648186.png" alt="" loading="lazy"><br>
+哎好吧你们一定要好好的啊。<br>
+喊名字了呀……明天见……<br>
 <br/><br>
-感觉平平淡淡的HE线呢……变成人类了。话说奇虚是不老不死的吗？<br>
-<br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732802815130.png" alt="" loading="lazy"><br>
-虽然是悲恋心路回顾但是好好笑啊。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732802949408.png" alt="" loading="lazy"><br>
-哦不这是怎么了。难道其实是黑色丝线包围的世界吗。我们傻大哥还沉浸在两情相悦的喜悦里啊思密达。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732803199141.png" alt="" loading="lazy"><br>
-逆天。好生硬的病娇BE。<br>
+也一次打出HE呢……好挫败啊啊啊啊啊贺阳……其实感觉NE也很合理啊大家永远一起做朋友吧……<br>
 <br/><br>
 <br/><br>
-哟西，开始娱乐街。特么的我真的讨厌锁线。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732803978518.png" alt="" loading="lazy"><br>
-我嘞个真就那人形那什么啊。好过分！<br>
-<img src="https://NianiaNiam.github.io/post-images/1732804115976.png" alt="" loading="lazy"><br>
-好好笑。传说中的非礼勿视。<br>
+<img src="http://localhost:4000/post-images/1734073966480.png" alt="" loading="lazy"><br>
+猫早读。猫好。<br>
 <br/><br>
-当智成即使是任务也为了不让女主看到男澡堂乱象而怎怎打咩的时候娱乐街组开局就是逛青楼进赌场。<br>
-好了孩子们我要把别人给我的零花钱拿来赌博了。<br>
-一八九，还要两张加起来是九，把我当弱智吗我累个。哦个位数要是九，看错了对不起。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732804985974.png" alt="" loading="lazy"><br>
-啥意思啊俺乡下来的长发怪力美人别钓我了。<br>
-我服了出老千没看出来就是输，这对吗？<br>
+<img src="http://localhost:4000/post-images/1734074523834.png" alt="" loading="lazy"><br>
+沉稳猫。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732805779518.png" alt="" loading="lazy"><br>
-好可爱的外号www<br>
-<img src="https://NianiaNiam.github.io/post-images/1732805932409.png" alt="" loading="lazy"><br>
-孩子们是长发男用双刀我们有救了。<br>
+<img src="http://localhost:4000/post-images/1734074632626.png" alt="" loading="lazy"><br>
+经典但纯爱。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732806274590.png" alt="" loading="lazy"><br>
-笑死我了地狱三人组，一个吉娃娃加两个脾气不好的。<br>
+<img src="http://localhost:4000/post-images/1734074782048.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734074786827.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734074790621.png" alt="" loading="lazy"><br>
+笑死，补药打狗了！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732806344757.png" alt="" loading="lazy"><br>
-太好了是散发人妻（被打飞）长发男我们有救了。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732806489136.png" alt="" loading="lazy"><br>
-哦~~~~~（那种声音<br>
-<img src="https://NianiaNiam.github.io/post-images/1732806703709.png" alt="" loading="lazy"><br>
-哦~~~~~~~~~~~~~~~~~~<br>
+<img src="http://localhost:4000/post-images/1734074981697.png" alt="" loading="lazy"><br>
+思春期娇羞猫啊！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732807093434.png" alt="" loading="lazy"><br>
-脸红差分可爱捏。<br>
+<img src="http://localhost:4000/post-images/1734075383855.png" alt="" loading="lazy"><br>
+人生导师猫啊！<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732807776042.png" alt="" loading="lazy"><br>
-狐狸男特有的哎呀哎呀。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732807861961.png" alt="" loading="lazy"><br>
-青涩那咋了。把我当什么了喂！<br>
+<img src="http://localhost:4000/post-images/1734075477958.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734075482640.png" alt="" loading="lazy"><br>
+哥你说清楚啊（摇晃）<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732807974524.png" alt="" loading="lazy"><br>
-逆天粉丝不要把个人爱好带入工作.jpg我嘞个痴汉啊。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732808044506.png" alt="" loading="lazy"><br>
-狐狸男特有的拒绝Desu<br>
+恋爱座谈会</s>~<br>
+<img src="http://localhost:4000/post-images/1734075775371.png" alt="" loading="lazy"><br>
+哦不孩子我心疼你……<br>
+<img src="http://localhost:4000/post-images/1734075795886.png" alt="" loading="lazy"><br>
+好可爱啊www不过为什么猫没有脸啊！<br>
+<img src="http://localhost:4000/post-images/1734075919611.png" alt="" loading="lazy"><br>
+猫已会背诵。<br>
+<img src="http://localhost:4000/post-images/1734076072270.png" alt="" loading="lazy"><br>
+喂！<br>
+<img src="http://localhost:4000/post-images/1734076176732.png" alt="" loading="lazy"><br>
+wwwwww小孩！<br>
 <br/><br>
-我的上司年少轻狂都做了些什么.jpg话说罪犯有刺青的话之前那个男的……？<br>
+<img src="http://localhost:4000/post-images/1734076476181.png" alt="" loading="lazy"><br>
+我就这样。<br>
+<img src="http://localhost:4000/post-images/1734076633657.png" alt="" loading="lazy"><br>
+wwwwwwwww<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732808493670.png" alt="" loading="lazy"><br>
-诶...<br>
+<img src="http://localhost:4000/post-images/1734076767063.png" alt="" loading="lazy"><br>
+在干嘛啊啊啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734076839310.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734076899088.png" alt="" loading="lazy"><br>
+两岸猿声啼不住啊！和尚猫！<br>
+<img src="http://localhost:4000/post-images/1734077068431.png" alt="" loading="lazy"><br>
+莫名好搞笑啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734077162932.png" alt="" loading="lazy"><br>
+笑死我了感觉猫拿了女主剧本被醉酒大叔骚扰了<br>
 <br/><br>
-嗯……为什么选分开会加樱太郎好感呢。感觉如果说智成的设计原型是冬雪的话，樱太郎就像是春花呢。不过比起前者那种清冽的安心感，后者感觉很危险呢……可能是被小小剧透的影响?<br>
+<img src="http://localhost:4000/post-images/1734077387049.png" alt="" loading="lazy"><br>
+不愧是看书多的。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732808983363.png" alt="" loading="lazy"><br>
-我服了把钱循环起来啊啊啊啊啊啊啊啊，给我！感觉像明君经典纳士桥段。<br>
+我嘞个人格改造术啊。<br>
+<img src="http://localhost:4000/post-images/1734077672678.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734077865413.png" alt="" loading="lazy"><br>
+油瞎哟！<br>
+<img src="http://localhost:4000/post-images/1734078087034.png" alt="" loading="lazy"><br>
+我嘞个麒麟臂啊！我还以为是牛郎啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734078189434.png" alt="" loading="lazy"><br>
+变成轻浮男了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734078242468.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊十八禁你才是牛郎啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734078290379.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊话说果然差不多高啊（突然（喂<br>
 <br/><br>
-果然不是一个人啊。哦不美女变怪兽……娱乐街果然危险很多啊！<br>
-我尼玛你吼辣莫大声干嘛啦！话疗启动！<br>
-我嘞个神兵小将南宫问雅净化啊。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732810147938.png" alt="" loading="lazy"><br>
-……？你也看得到丝线……？<br>
-逆天。不要玩cosplay了好吗好的大家被你们的感情弄得半死。这是真半死。<br>
-逆天传闻我服了。<br>
+<img src="http://localhost:4000/post-images/1734078666310.png" alt="" loading="lazy"><br>
+哦哟。严肃眼镜猴。<br>
 <br/><br>
-<img src="https://NianiaNiam.github.io/post-images/1732810668481.png" alt="" loading="lazy"><br>
-我的上司是傲娇.jpg你们不要欺负傲娇了！话说你们三个人的电波真的能在一个频道吗。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732811046805.png" alt="" loading="lazy"><br>
-对年龄很敏感的两位.jpg孩子你又要被揍了。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732811261411.png" alt="" loading="lazy"><br>
-傲娇特有的酒后吐真言，不要欺负上司了你们！<br>
-<img src="https://NianiaNiam.github.io/post-images/1732811371282.png" alt="" loading="lazy"><br>
-孩子们是娱乐街群像我们又有救了。<br>
-<img src="https://NianiaNiam.github.io/post-images/1732811520445.png" alt="" loading="lazy"><br>
-<img src="https://NianiaNiam.github.io/post-images/1732811530192.png" alt="" loading="lazy"><br>
-喂你真的是大叔哄小孩吧但是话说回来谁能救救我的笑点像极了高中上课和同学对视两眼就莫名其妙开始憋笑。救命啊！！！可是他说要摔碎多少个都摔给我看欸.jpg（店家：我……）<br>
-<img src="https://NianiaNiam.github.io/post-images/1732811752299.png" alt="" loading="lazy"><br>
-啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊我要笑疯了好混乱啊啊啊啊啊啊<br>
-<img src="https://NianiaNiam.github.io/post-images/1732811811208.png" alt="" loading="lazy"><br>
-孩子别怕我来了我正在写！！！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[路西欧💝]]></title>
-        <id>https://NianiaNiam.github.io/post/lu-xi-ou/</id>
-        <link href="https://NianiaNiam.github.io/post/lu-xi-ou/">
-        </link>
-        <updated>2024-11-14T13:39:49.000Z</updated>
-        <summary type="html"><![CDATA[<p>不准使坏🐱</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>不准使坏🐱</p>
-<!-- more -->
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安东尼💌]]></title>
-        <id>https://NianiaNiam.github.io/post/ou-ni-jiang/</id>
-        <link href="https://NianiaNiam.github.io/post/ou-ni-jiang/">
-        </link>
-        <updated>2024-11-14T13:04:21.000Z</updated>
-        <summary type="html"><![CDATA[<p>哥哥太爱我了怎么办🐰</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>哥哥太爱我了怎么办🐰</p>
-<!-- more -->
+<img src="http://localhost:4000/post-images/1734078950694.png" alt="" loading="lazy"><br>
+猫（摸）<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734079311921.png" alt="" loading="lazy"><br>
+猫摸猫。话说你真的其实挺适合当牛郎吧啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734079421510.png" alt="" loading="lazy"><br>
+我服了。就这样变脸。<br>
+<img src="http://localhost:4000/post-images/1734079479978.png" alt="" loading="lazy"><br>
+小猫！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734079542450.png" alt="" loading="lazy"><br>
+哦</s>~~~~~~~~~~~~~~~~~~~？<br>
+好吧，寂寞的喜欢大家的猫！<br>
+<img src="http://localhost:4000/post-images/1734079910056.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734079964535.png" alt="" loading="lazy"><br>
+呵呵呵呵呵呵呵呵呵呵。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734080138692.png" alt="" loading="lazy"><br>
+小学生啊！！！<br>
+<img src="http://localhost:4000/post-images/1734080240730.png" alt="" loading="lazy"><br>
+文学美少年啊！！！<br>
+<img src="http://localhost:4000/post-images/1734080348477.png" alt="" loading="lazy"><br>
+一生只有一次啊！！！<br>
+<img src="http://localhost:4000/post-images/1734080422661.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊太萌了侦察与反侦察啊！！！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734080937486.png" alt="" loading="lazy"><br>
+不知道猫在说什么我先心疼一下。<br>
+<img src="http://localhost:4000/post-images/1734081144413.png" alt="" loading="lazy"><br>
+发生甚摸事了。<br>
+………………什么啊不会你也失忆过吧！？还是朋友间有什么误会！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734081397885.png" alt="" loading="lazy"><br>
+猫，盯着。<br>
+<br/><br>
+纳尼啊……是不是有什么记忆方面的病症啊所以才一直看一本书看得那么慢……阿尔茨海默病不会吧……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734081617804.png" alt="" loading="lazy"><br>
+文艺猫啊……<br>
+<br/><br>
+怎么乱码了啊啊啊啊啊啊啊啊啊<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734081989803.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊急死我了，为什么在其他线完全看不出来啊……啊，难道因为每天做的事都不一样吗……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734082186645.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊啊啊果然……顺行性失忆是无法形成新的记忆，和女主的逆行性失忆刚好相反了。女主是没有过去只能向前走的人，筿原是没有未来被困在过去的人啊TTTTTTTTTTTTT……天生的也太那个了……<br>
+<img src="http://localhost:4000/post-images/1734083280767.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊……宝宝……<br>
+<img src="http://localhost:4000/post-images/1734083377466.png" alt="" loading="lazy"><br>
+我又要说了不要露出那么寂寞的表情啊！<br>
+<img src="http://localhost:4000/post-images/1734083483918.png" alt="" loading="lazy"><br>
+啊啊啊啊啊只有记忆不会循环……<br>
+<img src="http://localhost:4000/post-images/1734083559148.png" alt="" loading="lazy"><br>
+我是编剧（<br>
+<img src="http://localhost:4000/post-images/1734083731624.png" alt="" loading="lazy"><br>
+呜呜……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734083879480.png" alt="" loading="lazy"><br>
+贺阳状态.jpg<br>
+<img src="http://localhost:4000/post-images/1734083915789.png" alt="" loading="lazy"><br>
+我服了贺阳悖论啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734084061523.png" alt="" loading="lazy"><br>
+干架。<br>
+<img src="http://localhost:4000/post-images/1734087520231.png" alt="" loading="lazy"><br>
+呵呵呵呵呵呵呵呵呵呵。<br>
+<img src="http://localhost:4000/post-images/1734087699092.png" alt="" loading="lazy"><br>
+哇。哇。哇。这是什么？这是什么？这是什么？<br>
+<img src="http://localhost:4000/post-images/1734087863984.png" alt="" loading="lazy"><br>
+这人想使坏的程度大于了做这种事很羞耻的程度吧！！！<br>
+<img src="http://localhost:4000/post-images/1734087894398.png" alt="" loading="lazy"><br>
+被钓成翘嘴了。<br>
+<img src="http://localhost:4000/post-images/1734088064342.png" alt="" loading="lazy"><br>
+好啊。好啊。好啊。<br>
+<img src="http://localhost:4000/post-images/1734088219808.png" alt="" loading="lazy"><br>
+好好好好好好好好。<br>
+<img src="http://localhost:4000/post-images/1734088275686.png" alt="" loading="lazy"><br>
+查询反射弧啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊<br>
+<img src="http://localhost:4000/post-images/1734088325152.png" alt="" loading="lazy"><br>
+哎呀哎呀哎呀哎呀。<br>
+<img src="http://localhost:4000/post-images/1734088458377.png" alt="" loading="lazy"><br>
+哎哟。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734088740426.png" alt="" loading="lazy"><br>
+我又笑不出来了。<br>
+<img src="http://localhost:4000/post-images/1734088830112.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊。。。。。。。。。。。。。。。。。<br>
+<img src="http://localhost:4000/post-images/1734088898156.png" alt="" loading="lazy"><br>
+掉眼泪了。。。我该选哪个选项才能让你幸福啊。。。<br>
+<img src="http://localhost:4000/post-images/1734089045465.png" alt="" loading="lazy"><br>
+呃呃呃呃呃呃。。。。。<br>
+<img src="http://localhost:4000/post-images/1734089214764.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734089299528.png" alt="" loading="lazy"><br>
+TT…………<br>
+<img src="http://localhost:4000/post-images/1734089362349.png" alt="" loading="lazy"><br>
+呀哒……<br>
+<img src="http://localhost:4000/post-images/1734089441950.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734089504290.png" alt="" loading="lazy"><br>
+哥我也心疼你……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734089576878.png" alt="" loading="lazy"><br>
+宝宝……<br>
+<img src="http://localhost:4000/post-images/1734089631247.png" alt="" loading="lazy"><br>
+TT…………………………<br>
+<img src="http://localhost:4000/post-images/1734089671727.png" alt="" loading="lazy"><br>
+啊啊………………………<br>
+<img src="http://localhost:4000/post-images/1734089842797.png" alt="" loading="lazy"><br>
+非常亚萨西的宝宝……<br>
+<img src="http://localhost:4000/post-images/1734089998129.png" alt="" loading="lazy"><br>
+呃呜呜呜呜呜呜呜呜呜呜呜呜<br>
+<img src="http://localhost:4000/post-images/1734090040092.png" alt="" loading="lazy"><br>
+泥萌一定要幸福啊…………<br>
+<br/><br>
+卧槽怎么乱码了我浑身难受了。<br>
+<br/><br>
+<br/><br>
+<br/><br>
+感觉绵森可能也是科学部的人吧……说不定是去世的人然后科学部合力把他留下来了……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734164029742.png" alt="" loading="lazy"><br>
+狗好啊。狗好。猫也好。<br>
+<img src="http://localhost:4000/post-images/1734165185776.png" alt="" loading="lazy"><br>
+猫鼓嘴.jpg<br>
+<img src="http://localhost:4000/post-images/1734165752019.png" alt="" loading="lazy"><br>
+笑死。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734166800001.png" alt="" loading="lazy"><br>
+笑死啊啊啊啊啊啊啊恐怖如斯<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734168152739.png" alt="" loading="lazy"><br>
+狗！<br>
+<img src="http://localhost:4000/post-images/1734168234746.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734168239812.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734168289252.png" alt="" loading="lazy"><br>
+以呆哟……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734168400493.png" alt="" loading="lazy"><br>
+似李吗绵森。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734169286514.png" alt="" loading="lazy"><br>
+感觉像大家自愿进入循环的（<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734170803185.png" alt="" loading="lazy"><br>
+啊啊太诱人了jpg<br>
+<img src="http://localhost:4000/post-images/1734170891827.png" alt="" loading="lazy"><br>
+哦~~~~~~~~~~<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734177428855.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊笑死了<br>
+<img src="http://localhost:4000/post-images/1734177777273.png" alt="" loading="lazy"><br>
+我嘞个迪士尼公主啊。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734178159757.png" alt="" loading="lazy"><br>
+狗好！<br>
+<br/><br>
+老师是不是在赚钱给亲人治病什么的。因为是长子。<br>
+果然是给弟弟支付医药费和住院费啊。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734179006916.png" alt="" loading="lazy"><br>
+我就这样。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734181395346.png" alt="" loading="lazy"><br>
+（擦汗）虽然但是一想到主角16岁老师28岁我就想擦汗（擦汗）<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734181752437.png" alt="" loading="lazy"><br>
+明天！<br>
+<br/><br>
+<br/><br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734242765757.png" alt="" loading="lazy"><br>
+果然哦……<br>
+<img src="http://localhost:4000/post-images/1734243160978.png" alt="" loading="lazy"><br>
+你不会真的是卡密萨马吧。<br>
+<img src="http://localhost:4000/post-images/1734243249803.png" alt="" loading="lazy"><br>
+哦不，但是先回家看看吧.jpg<br>
+嗯不知道是不是一样……还是先倒回去吧！<br>
+<br/><br>
+什么几千年啊啊啊啊那不是周围的人都死了（擦汗）<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734243562225.png" alt="" loading="lazy"><br>
+果然是套娃啊。让我写.jpg<br>
+<img src="http://localhost:4000/post-images/1734243612268.png" alt="" loading="lazy"><br>
+那我谈过的恋爱算啥！！！！！！！！！！！<br>
+<img src="http://localhost:4000/post-images/1734243865169.png" alt="" loading="lazy"><br>
+果然.jpg<br>
+<br/><br>
+话说绵森是直接叫的部长的名呢……宗介。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734244767121.png" alt="" loading="lazy"><br>
+量子力学.jpg<br>
+<img src="http://localhost:4000/post-images/1734244910279.png" alt="" loading="lazy"><br>
+猪脑过载了。<br>
+<img src="http://localhost:4000/post-images/1734245098400.png" alt="" loading="lazy"><br>
+嗯……你就是那个实验对象？被创造出来的观测者？<br>
+还真是。<br>
+<img src="http://localhost:4000/post-images/1734245433734.png" alt="" loading="lazy"><br>
+加油啊！！！<br>
+<br/><br>
+感觉其他都是女主拯救男主这条线好像反过来了www<br>
+<img src="http://localhost:4000/post-images/1734245636877.png" alt="" loading="lazy"><br>
+别钓我了！<br>
+<img src="http://localhost:4000/post-images/1734245798844.png" alt="" loading="lazy"><br>
+我服啦啊啊啊啊啊啊啊别这么明目张胆地使用超能力啊啊啊啊啊啊就这样偏爱啊！<br>
+<img src="http://localhost:4000/post-images/1734245982300.png" alt="" loading="lazy"><br>
+笑死我了啊啊啊啊啊啊啊啊啊！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734246497316.png" alt="" loading="lazy"><br>
+部长你是天才啊！<br>
+<img src="http://localhost:4000/post-images/1734246552427.png" alt="" loading="lazy"><br>
+部长好……<br>
+<img src="http://localhost:4000/post-images/1734246581050.png" alt="" loading="lazy"><br>
+哦TT……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734246774763.png" alt="" loading="lazy"><br>
+嗯……果然变成实验对象了……<br>
+<img src="http://localhost:4000/post-images/1734246840526.png" alt="" loading="lazy"><br>
+哦不……<br>
+<img src="http://localhost:4000/post-images/1734246913622.png" alt="" loading="lazy"><br>
+果然啊！？我前面好像想过这个角度啊！<br>
+嗯……是因为部长父亲去世所以才拒绝明天的吗？<br>
+<br/><br>
+中间又乱码了。可恶。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734247908000.png" alt="" loading="lazy"><br>
+真好啊。<br>
+<img src="http://localhost:4000/post-images/1734248053098.png" alt="" loading="lazy"><br>
+真好啊（复读）<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734248263473.png" alt="" loading="lazy"><br>
+部长wwwwwww……可爱……<br>
+<img src="http://localhost:4000/post-images/1734248373987.png" alt="" loading="lazy"><br>
+哎部长太帅了。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734248478456.png" alt="" loading="lazy"><br>
+哦不…………<br>
+<img src="http://localhost:4000/post-images/1734248568039.png" alt="" loading="lazy"><br>
+我测真就做了个梦啊啊啊啊啊啊啊啊啊啊啊补药啊。。。。。。。。。。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734248892024.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734248928580.png" alt="" loading="lazy"><br>
+部长你是天使啊！！！！！！！！！！！<br>
+<br/><br>
+但是循环结束之后绵森会怎么样啊……你咋不说啊哥们……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734249086558.png" alt="" loading="lazy"><br>
+啊啊啊群像……这太好了……这太好了……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734249327075.png" alt="" loading="lazy"><br>
+哦……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734249454448.png" alt="" loading="lazy"><br>
+（万能表情）<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734249860041.png" alt="" loading="lazy"><br>
+TT………………<br>
+<img src="http://localhost:4000/post-images/1734249933301.png" alt="" loading="lazy"><br>
+部长你太帅了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊TT<br>
+<img src="http://localhost:4000/post-images/1734250053719.png" alt="" loading="lazy"><br>
+萌啊……<br>
+<img src="http://localhost:4000/post-images/1734250236265.png" alt="" loading="lazy"><br>
+敏锐的狗！！！<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734250316928.png" alt="" loading="lazy"><br>
+不行啊我不会BE了吧。不要啊。不要啊。<br>
+<img src="http://localhost:4000/post-images/1734250433424.png" alt="" loading="lazy"><br>
+（万能表情）<br>
+<img src="http://localhost:4000/post-images/1734250498222.png" alt="" loading="lazy"><br>
+不啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊让我见一面啊啊啊啊啊啊啊啊啊啊啊<br>
+赶上了TTTTTTTTTTTTT<br>
+<img src="http://localhost:4000/post-images/1734250639193.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊对啊！！！！！！！！！！！！！！！！！<br>
+<img src="http://localhost:4000/post-images/1734250683238.png" alt="" loading="lazy"><br>
+（万能表情）<br>
+我想死。<br>
+<img src="http://localhost:4000/post-images/1734250801243.png" alt="" loading="lazy"><br>
+我想死。<br>
+<img src="http://localhost:4000/post-images/1734250920755.png" alt="" loading="lazy"><br>
+呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呜呜呜呜呜呜呜呜呜呜呜<br>
+<img src="http://localhost:4000/post-images/1734251003275.png" alt="" loading="lazy"><br>
+。。。。。。。。。。。。。。。。。。。。。。。。。。。。。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734251191739.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734251266635.png" alt="" loading="lazy"><br>
+啊啊啊。。。大家。。。会不会遇到你呢。。。。<br>
+没截老师对不起（<br>
+<img src="http://localhost:4000/post-images/1734251483688.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734251532406.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊……<br>
+学长！！！明天果然是会有奇迹的啊TTTTTTTTTTTTTTT<br>
+<img src="http://localhost:4000/post-images/1734251634817.png" alt="" loading="lazy"><br>
+是有绵森的大家啊TTTTTTT<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734251874662.png" alt="" loading="lazy"><br>
+太好了大家都在一起了TTTTTTTTTTTTTTTTTTTTTTTTTTT<br>
+<img src="http://localhost:4000/post-images/1734251995840.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734251999615.png" alt="" loading="lazy"><br>
+一定会是个好日子的。<br>
+<br/><br>
+<br/><br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1734330928340.png" alt="" loading="lazy"><br>
+是这样呀……<br>
+<img src="http://localhost:4000/post-images/1734331030185.png" alt="" loading="lazy"><br>
+啊啊……好厉害……<br>
+<img src="http://localhost:4000/post-images/1734331463121.png" alt="" loading="lazy"><br>
+可爱……<br>
+<img src="http://localhost:4000/post-images/1734331540062.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734331576751.png" alt="" loading="lazy"><br>
+萌啊……<br>
+<img src="http://localhost:4000/post-images/1734332116232.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734332120386.png" alt="" loading="lazy"><br>
+TT……<br>
+<img src="http://localhost:4000/post-images/1734332425833.png" alt="" loading="lazy"><br>
+贱b啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊滚！！！！！！！！！！！！！！<br>
+<img src="http://localhost:4000/post-images/1734332599077.png" alt="" loading="lazy"><br>
+啊啊啊啊啊啊啊啊啊啊不………………………………………………<br>
+<img src="http://localhost:4000/post-images/1734333041820.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734333046353.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1734333093659.png" alt="" loading="lazy"><br>
+哭成傻逼了……………………………………<br>
+<img src="http://localhost:4000/post-images/1734333419748.png" alt="" loading="lazy"><br>
+要幸福啊………………………………………………………………………………</p>
+<p><img src="http://localhost:4000/post-images/1734333709819.png" alt="" loading="lazy"><br>
+压扁！<br>
+<img src="http://localhost:4000/post-images/1734333919839.png" alt="" loading="lazy"><br>
+官方认证没头脑和不高兴。<br>
+<br/><br>
+<br/><br>
+<br/><br>
+<br/><br>
+<br/><br>
+之前突然玩不了，隔了好多天重金购入（<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1737988623834.png" alt="" loading="lazy"><br>
+狗好，狗萌。<br>
+<br/><br>
+哎哟……情书这个标题取的好啊……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1737989536479.png" alt="" loading="lazy"><br>
+哦部长宝宝……拼尽全力社交的样子……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1737990244103.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1737990296656.png" alt="" loading="lazy"><br>
+哦不……好人人TT……大家都是温柔的好人人………………<br>
+<img src="http://localhost:4000/post-images/1737990340187.png" alt="" loading="lazy"><br>
+我难受了。我想起一位故人（。。。<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1737990388639.png" alt="" loading="lazy"><br>
+对啊啊啊……<br>
+<br/><br>
+<img src="http://localhost:4000/post-images/1738057511300.png" alt="" loading="lazy"><br>
+噢……小翔……<br>
+<img src="http://localhost:4000/post-images/1738057819517.png" alt="" loading="lazy"><br>
+噢……老师……TT<br>
+<br/></p>
 ]]></content>
     </entry>
 </feed>
